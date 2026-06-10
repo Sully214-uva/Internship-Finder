@@ -227,5 +227,13 @@ table.timeline { border-collapse: collapse; width: 100%; font-size: .8rem; }
 .modal-actions { display: flex; justify-content: space-between; gap: .5rem; margin-top: 1.25rem; }
 .fit-note { background: #f1f5fd; border-left: 3px solid var(--accent); padding: .6rem .8rem; border-radius: 6px; font-size: .9rem; }
 
+/* ===== AI search form (fields used outside the modal) ===== */
+.card .field { margin-bottom: 1rem; }
+.card .field label { display: block; font-weight: 600; font-size: .85rem; margin-bottom: .25rem; }
+#s-query {
+  width: 100%; min-height: 90px; padding: .5rem; font: inherit;
+  border: 1px solid var(--border); border-radius: 8px; resize: vertical;
+}
+
 /* ===== Footer ===== */
 .app-footer { padding: 1rem 1.5rem; color: var(--text-soft); font-size: .8rem; text-align: center; }

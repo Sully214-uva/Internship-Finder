@@ -324,6 +324,7 @@ function render() {
   else if (state.activeView === "timeline")  viewRoot.innerHTML = renderTimeline();
   else if (state.activeView === "documents") viewRoot.innerHTML = renderDocuments();
   else if (state.activeView === "live")      { viewRoot.innerHTML = renderLiveShell(); loadLiveFeed(); }
+  else if (state.activeView === "search")    { viewRoot.innerHTML = renderSearchShell(); wireSearch(); }
 
   // After drawing cards, make each one clickable to open its editor.
   viewRoot.querySelectorAll("[data-open-id]").forEach(el => {
@@ -445,6 +446,246 @@ function addFeedPostingToList(p) {
     saveData();
     setFooter("Added “" + p.title + "” to your list.");
   }
+}
+
+/* ---------- 6f. AI SEARCH: describe what you want → Claude suggests roles ----------
+   This calls the Anthropic API DIRECTLY from your browser. Your API key is read
+   from localStorage (you paste it once into the settings box below) and is NEVER
+   stored in the code or sent anywhere except Anthropic. The special header
+   `anthropic-dangerous-direct-browser-access` is what lets a browser call the API.
+   Because this is your own key in your own browser on a personal tool, that's an
+   acceptable trade-off for not needing a server. */
+
+// A compact summary of who you are, so suggestions are tailored even before you type.
+const PROFILE_SUMMARY =
+  "UVA rising sophomore, Foreign Affairs BA + Batten Accelerated MPP (5-yr), GPA ~3.91, " +
+  "U.S. citizen. Goal: policymaking — legislative or cabinet-advisory — in U.S. foreign & " +
+  "defense policy and tech-in-governance. Strong interests: defense procurement/contracting, " +
+  "science & technology diplomacy, materials-science policy and federal research funding " +
+  "(DOE, NIST, national labs), appropriations, IP law/policy, congressional work with a " +
+  "Virginia/Texas home-state angle, and security/defense think tanks. Entrepreneurial streak " +
+  "(a materials-science startup idea reliant on federal funding/contracts).";
+
+// Where we remember your key + model choice (your browser only).
+const KEY_STORE = "internshipFinder.anthropicKey";
+const MODEL_STORE = "internshipFinder.model";
+
+// The structured shape we ask Claude to return.
+const SEARCH_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  required: ["suggestions"],
+  properties: {
+    suggestions: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        required: ["name", "organization", "category", "fit_tier",
+                   "why_fits", "strengths", "difficulty", "how_to_pursue", "apply_hint"],
+        properties: {
+          name: { type: "string" },
+          organization: { type: "string" },
+          category: { type: "string" },
+          fit_tier: { type: "string", enum: ["top", "strong", "stretch", "fallback"] },
+          why_fits: { type: "string" },
+          strengths: { type: "array", items: { type: "string" } },
+          difficulty: { type: "string" },
+          how_to_pursue: { type: "string" },
+          apply_hint: { type: "string" },
+        },
+      },
+    },
+  },
+};
+
+function renderSearchShell() {
+  const hasKey = !!localStorage.getItem(KEY_STORE);
+  const model = localStorage.getItem(MODEL_STORE) || "claude-opus-4-8";
+  const opt = (v, label) => `<option value="${v}" ${model === v ? "selected" : ""}>${label}</option>`;
+
+  return `
+    <h2 class="section-title">AI search</h2>
+    <p class="muted">Describe what you're looking for — Claude suggests real programs/offices
+    matched to your profile, with fit, difficulty, and how to pursue each.</p>
+
+    <details class="card" ${hasKey ? "" : "open"} style="margin-bottom:1rem">
+      <summary style="cursor:pointer;font-weight:600">
+        🔑 API key &amp; model ${hasKey ? "✅ key saved" : "— add your key to begin"}
+      </summary>
+      <p class="muted" style="margin-top:.75rem">
+        Paste your Anthropic API key (starts with <code>sk-ant-</code>). It is saved
+        <b>only in this browser</b> (localStorage) — never in the website's code or repo.
+        Get one at console.anthropic.com.
+      </p>
+      <div class="field">
+        <label for="s-key">Anthropic API key</label>
+        <input type="password" id="s-key" placeholder="sk-ant-..."
+               value="${localStorage.getItem(KEY_STORE) || ""}"
+               style="width:100%;padding:.5rem;border:1px solid var(--border);border-radius:8px">
+      </div>
+      <div class="field">
+        <label for="s-model">Model (cost per use)</label>
+        <select id="s-model" style="width:100%;padding:.5rem;border:1px solid var(--border);border-radius:8px">
+          ${opt("claude-opus-4-8", "Opus 4.8 — best, priciest")}
+          ${opt("claude-sonnet-4-6", "Sonnet 4.6 — balanced")}
+          ${opt("claude-haiku-4-5", "Haiku 4.5 — cheapest")}
+        </select>
+      </div>
+      <button class="btn btn-primary" id="s-save-key">Save key &amp; model</button>
+    </details>
+
+    <div class="card" style="margin-bottom:1rem">
+      <div class="field">
+        <label for="s-query">What are you looking for?</label>
+        <textarea id="s-query" placeholder="e.g. summer internships in defense procurement or tech policy with a Texas connection; or research roles bridging materials science and federal policy"></textarea>
+      </div>
+      <button class="btn btn-primary" id="s-go">Get suggestions</button>
+    </div>
+
+    <div id="search-results"></div>`;
+}
+
+function wireSearch() {
+  document.getElementById("s-save-key").onclick = () => {
+    const key = document.getElementById("s-key").value.trim();
+    const model = document.getElementById("s-model").value;
+    if (key) localStorage.setItem(KEY_STORE, key);
+    localStorage.setItem(MODEL_STORE, model);
+    setFooter("Key & model saved (this browser only).");
+    render();   // refresh the "key saved ✅" state
+  };
+  document.getElementById("s-go").onclick = runAiSearch;
+  // Pressing Enter (with Cmd/Ctrl) in the query box also searches.
+  document.getElementById("s-query").addEventListener("keydown", e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === "Enter") runAiSearch();
+  });
+}
+
+async function runAiSearch() {
+  const key = localStorage.getItem(KEY_STORE);
+  const model = localStorage.getItem(MODEL_STORE) || "claude-opus-4-8";
+  const query = document.getElementById("s-query").value.trim();
+  const results = document.getElementById("search-results");
+
+  if (!key) { results.innerHTML = `<p class="muted">Add your API key above first.</p>`; return; }
+  if (!query) { results.innerHTML = `<p class="muted">Type what you're looking for first.</p>`; return; }
+
+  results.innerHTML = `<p class="muted">Asking Claude… (a few seconds)</p>`;
+
+  const system =
+    "You are a sharp career advisor for the specific student described. Suggest 4-6 REAL, " +
+    "nameable internship/fellowship programs, offices, committees, think tanks, labs, or firms " +
+    "that fit their goals and the search parameters. Be concrete and honest — enforce eligibility " +
+    "(undergraduate, U.S. citizen). Use the fit tiers top/strong/stretch/fallback.";
+  const userMsg =
+    `STUDENT PROFILE: ${PROFILE_SUMMARY}\n\n` +
+    `SEARCH PARAMETERS: ${query}\n\n` +
+    "Return suggestions tailored to BOTH the profile and the parameters.";
+
+  try {
+    const resp = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "x-api-key": key,
+        "anthropic-version": "2023-06-01",
+        "anthropic-dangerous-direct-browser-access": "true",
+      },
+      body: JSON.stringify({
+        model: model,
+        max_tokens: 2000,
+        system: system,
+        messages: [{ role: "user", content: userMsg }],
+        output_config: { format: { type: "json_schema", schema: SEARCH_SCHEMA } },
+      }),
+    });
+
+    if (!resp.ok) {
+      let detail = `HTTP ${resp.status}`;
+      try { detail = (await resp.json()).error?.message || detail; } catch {}
+      const hint = resp.status === 401 ? " — your API key looks wrong or revoked."
+                 : resp.status === 400 ? " — check you have credit in your Anthropic account."
+                 : resp.status === 429 ? " — rate limited; wait a moment and retry." : "";
+      results.innerHTML = `<div class="card"><b>Couldn't get suggestions.</b>
+        <p class="muted">${detail}${hint}</p></div>`;
+      return;
+    }
+
+    const data = await resp.json();
+    const text = (data.content.find(b => b.type === "text") || {}).text || "{}";
+    const parsed = JSON.parse(text);
+    renderSearchResults(parsed.suggestions || []);
+  } catch (err) {
+    results.innerHTML = `<div class="card"><b>Network error.</b>
+      <p class="muted">${err.message}. Check your connection and try again.</p></div>`;
+  }
+}
+
+function renderSearchResults(suggestions) {
+  const root = document.getElementById("search-results");
+  if (suggestions.length === 0) {
+    root.innerHTML = `<p class="muted">No suggestions came back — try rephrasing your search.</p>`;
+    return;
+  }
+  // Stash results so the Add buttons can find their data by index.
+  window._aiSuggestions = suggestions;
+
+  let html = `<div class="card-grid">`;
+  suggestions.forEach((s, i) => {
+    const strengths = (s.strengths || []).map(x => `<li>${x}</li>`).join("");
+    html += `
+      <div class="card opp-card" style="cursor:default">
+        <span class="org">${s.organization}</span>
+        <h3>${s.name}</h3>
+        <div class="opp-meta">${tierBadge(s.fit_tier)} ${catBadge(s.category)}</div>
+        <div class="fit-note"><b>Fit:</b> ${s.why_fits}</div>
+        ${strengths ? `<div><b>Strengths</b><ul>${strengths}</ul></div>` : ""}
+        <div><b>Difficulty:</b> <span class="muted">${s.difficulty}</span></div>
+        <div><b>How to pursue:</b> <span class="muted">${s.how_to_pursue}</span></div>
+        <div><b>Applying:</b> <span class="muted">${s.apply_hint}</span></div>
+        <div class="modal-actions">
+          <a class="btn" target="_blank" rel="noopener"
+             href="https://www.google.com/search?q=${encodeURIComponent(s.name + ' ' + s.organization + ' internship')}">
+             Search the web ↗</a>
+          <button class="btn btn-primary" data-add-sugg="${i}">Add to my list</button>
+        </div>
+      </div>`;
+  });
+  html += `</div>`;
+  root.innerHTML = html;
+
+  root.querySelectorAll("[data-add-sugg]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      addSuggestionToList(window._aiSuggestions[Number(btn.dataset.addSugg)]);
+      btn.disabled = true;
+      btn.textContent = "✓ Added";
+    });
+  });
+}
+
+// Turn an AI suggestion into a tracked opportunity.
+function addSuggestionToList(s) {
+  if (!s) return;
+  const id = "ai:" + s.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40) + "-" + Date.now();
+  const notes = [
+    s.strengths && s.strengths.length ? "Strengths: " + s.strengths.join("; ") : "",
+    s.difficulty ? "Difficulty: " + s.difficulty : "",
+    s.how_to_pursue ? "How to pursue: " + s.how_to_pursue : "",
+    s.apply_hint ? "Applying: " + s.apply_hint : "",
+  ].filter(Boolean).join("\n");
+
+  state.opportunities.push({
+    id, name: s.name, organization: s.organization,
+    category: s.category || "federal",
+    fitTier: ["top", "strong", "stretch", "fallback"].includes(s.fit_tier) ? s.fit_tier : "stretch",
+    applyUrl: "https://www.google.com/search?q=" + encodeURIComponent(s.name + " " + s.organization),
+    fitNotes: s.why_fits || "", rolling: true, windowOpen: null, windowClose: null,
+    status: "researching", deadline: null, dateApplied: null, notes,
+    documents: ["Resume", "Cover letter", "Transcript"].map(name => ({ name, completed: false })),
+  });
+  saveData();
+  setFooter("Added “" + s.name + "” to your list.");
 }
 
 // Small helpers for building badge HTML, reused in several views.
