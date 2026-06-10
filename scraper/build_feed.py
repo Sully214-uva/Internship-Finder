@@ -112,10 +112,13 @@ def main():
 
     # --- 1-2. Fetch everything ---
     print("Fetching sources…")
+    # .strip() guards against a stray space/newline picked up when pasting the
+    # value into a GitHub secret — those make API headers illegal and surface as
+    # confusing "Connection error" failures.
     raw = fetchers.fetch_all(
         sources,
-        usajobs_email=os.environ.get("USAJOBS_EMAIL"),
-        usajobs_key=os.environ.get("USAJOBS_API_KEY"),
+        usajobs_email=(os.environ.get("USAJOBS_EMAIL") or "").strip(),
+        usajobs_key=(os.environ.get("USAJOBS_API_KEY") or "").strip(),
     )
     print(f"Fetched {len(raw)} unique postings.")
 
@@ -125,13 +128,15 @@ def main():
     # --- 4. Analyze only the new ones (lazy import so --sample needs no SDK) ---
     import anthropic
     import analyze
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
     if not api_key:
         print("ERROR: ANTHROPIC_API_KEY not set — cannot run AI matching.\n"
               "       (Use `python build_feed.py --sample` to preview the UI.)")
         sys.exit(1)
     client = anthropic.Anthropic(api_key=api_key)
-    model = os.environ.get("MODEL", "claude-opus-4-8")
+    model = (os.environ.get("MODEL") or "claude-opus-4-8").strip()
+    print(f"anthropic SDK {getattr(anthropic, '__version__', '?')} · model {model} · "
+          f"key length {len(api_key)}")
 
     feed, new_items = [], []
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
