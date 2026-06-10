@@ -75,7 +75,11 @@ def analyze_posting(client: anthropic.Anthropic, model: str,
         )
         return resp.parsed_output
     except Exception as e:
-        # Print the exception TYPE too — e.g. APIConnectionError vs AuthenticationError
-        # vs BadRequestError — so failures are diagnosable from the run log.
-        print(f"  [analyze] failed for {posting['title'][:50]!r}: {type(e).__name__}: {e}")
+        # Print the exception TYPE and underlying cause so failures are diagnosable
+        # from the run log (e.g. a malformed api-key header shows up as the cause).
+        cause = getattr(e, "__cause__", None)
+        msg = f"  [analyze] failed for {posting['title'][:50]!r}: {type(e).__name__}: {e}"
+        if cause:
+            msg += f" | cause: {type(cause).__name__}: {cause}"
+        print(msg)
         return None
