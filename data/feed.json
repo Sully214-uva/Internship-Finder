@@ -1,52 +1,5 @@
 {
-  "generated_at": "2026-06-10T14:46:06.275714+00:00",
-  "count": 2,
-  "postings": [
-    {
-      "id": "sample:1",
-      "title": "Science & Technology Policy Intern",
-      "org": "U.S. Department of State \u2014 OES",
-      "location": "Washington, DC",
-      "url": "https://careers.state.gov/",
-      "source": "Sample data",
-      "first_seen": "2026-06-10T14:46:06.275287+00:00",
-      "relevant": true,
-      "relevance_score": 92,
-      "category": "federal",
-      "fit_tier": "top",
-      "strengths": [
-        "Science diplomacy at the source",
-        "Federal credential on your exact lane"
-      ],
-      "weaknesses": [
-        "Clearance lead time pushes the real deadline earlier"
-      ],
-      "fit_with_plans": "Squarely on your foreign-policy + tech-in-governance track.",
-      "difficulty": "Competitive; clearance timeline is the main hurdle.",
-      "approach": "Apply the day the window opens; lead with your GPA and a STEM-policy writing sample."
-    },
-    {
-      "id": "sample:2",
-      "title": "Defense Acquisition Research Intern",
-      "org": "Center for a New American Security",
-      "location": "Washington, DC",
-      "url": "https://www.cnas.org/careers",
-      "source": "Sample data",
-      "first_seen": "2026-06-10T14:46:06.275287+00:00",
-      "relevant": true,
-      "relevance_score": 81,
-      "category": "think tank",
-      "fit_tier": "strong",
-      "strengths": [
-        "Defense-procurement focus matches your interest",
-        "Strong writing portfolio builder"
-      ],
-      "weaknesses": [
-        "Rolling apps mean you must move early"
-      ],
-      "fit_with_plans": "Builds the defense-policy side of your goal and a think-tank network.",
-      "difficulty": "Moderately competitive; rolling basis rewards early applicants.",
-      "approach": "Submit a sharp writing sample on defense tech now; don't wait for a deadline."
-    }
-  ]
+  "generated_at": "2026-06-10T22:01:22.658699+00:00",
+  "count": 0,
+  "postings": []
 }
