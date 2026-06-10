@@ -45,6 +45,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           NOTIFY_TO:         ${{ secrets.NOTIFY_TO }}     # optional
           MODEL:             ${{ secrets.MODEL }}          # optional (default claude-opus-4-8)
+          MAX_NEW:           ${{ secrets.MAX_NEW }}        # optional cost cap per run (default 50)
           SITE_URL:          ${{ secrets.SITE_URL }}       # optional, for email links
         run: python scraper/build_feed.py
 

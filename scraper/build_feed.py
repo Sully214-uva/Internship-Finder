@@ -136,11 +136,20 @@ def main():
     feed, new_items = [], []
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
+    # Cost guardrail: analyze at most MAX_NEW brand-new postings per run. Any
+    # extras wait for the next run. (Already-analyzed postings are free to keep.)
+    max_new = int(os.environ.get("MAX_NEW") or "50")
+    analyzed = 0
+
     for posting in raw:
         if posting["id"] in existing:
-            feed.append(existing[posting["id"]])      # reuse prior analysis
+            feed.append(existing[posting["id"]])      # reuse prior analysis (free)
             continue
 
+        if analyzed >= max_new:
+            continue   # hit the per-run budget; leave the rest for next time
+
+        analyzed += 1
         result = analyze.analyze_posting(client, model, profile, posting)
         if result is None:
             continue
@@ -151,6 +160,8 @@ def main():
         feed.append(entry)
         new_items.append(entry)
         print(f"  + [{result.fit_tier} {result.relevance_score}] {posting['title'][:60]}")
+
+    print(f"Analyzed {analyzed} new posting(s) this run (cap {max_new}).")
 
     # --- 5. Write the feed ---
     write_feed(feed)
