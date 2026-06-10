@@ -1,5 +1,192 @@
 {
-  "generated_at": "2026-06-10T22:01:22.658699+00:00",
-  "count": 0,
-  "postings": []
+  "generated_at": "2026-06-10T22:47:01.251401+00:00",
+  "count": 7,
+  "postings": [
+    {
+      "id": "web:https://www.foreign.senate.gov/about/internships",
+      "title": "Internships",
+      "org": "Senate Foreign Relations Committee \u2014 internships",
+      "location": "",
+      "url": "https://www.foreign.senate.gov/about/internships",
+      "summary": "",
+      "source": "Senate Foreign Relations Committee \u2014 internships",
+      "first_seen": "2026-06-10T22:44:23.877499+00:00",
+      "relevant": true,
+      "relevance_score": 92,
+      "category": "legislative",
+      "fit_tier": "top",
+      "strengths": [
+        "Direct exposure to U.S. foreign policy formulation at the committee level\u2014the exact domain you've identified as a long-term career target.",
+        "Unmatched credibility-building for future cabinet-advisory or legislative roles; Senate FREC internships are a gold-standard entry point.",
+        "Opportunity to develop deep expertise in defense, S&T diplomacy, and foreign aid/appropriations\u2014three of your core interest areas\u2014while building Hill relationships."
+      ],
+      "weaknesses": [
+        "Highly competitive for sophomores; most interns are juniors/seniors or recent grads, so you'll face a strong applicant pool despite strong credentials.",
+        "Limited hands-on policy work\u2014most interns handle research, memo support, and administrative tasks rather than drafting legislation.",
+        "No guarantee of materials-science or tech-governance focus; assignment depends on which subcommittee and senator's priorities."
+      ],
+      "fit_with_plans": "This is a textbook stepping stone for your legislative and cabinet-advisory track. A Senate FREC internship on your resume signals serious preparation for policymaking roles and builds the Hill network you'll need for elected office or senior advisory positions.",
+      "difficulty": "Moderately difficult for a sophomore despite your strong GPA and profile. FREC is prestigious and selective; you'll compete against well-connected juniors and seniors. Apply through official channels early and use any Virginia or Texas senator connections.",
+      "approach": "Contact your senators' offices (Virginia or Texas) directly\u2014personal asks carry weight. Emphasize your Batten track, foreign/defense policy focus, and long-term policymaking goal. If FREC itself is a stretch, consider starting with a home-state senator's office on foreign policy or appropriations subcommittees, then aim for FREC in junior year with stronger positioning."
+    },
+    {
+      "id": "web:https://www.foreign.senate.gov/download/minority-internship-form",
+      "title": "here",
+      "org": "Senate Foreign Relations Committee \u2014 internships",
+      "location": "",
+      "url": "https://www.foreign.senate.gov/download/minority-internship-form",
+      "summary": "",
+      "source": "Senate Foreign Relations Committee \u2014 internships",
+      "first_seen": "2026-06-10T22:44:23.877499+00:00",
+      "relevant": true,
+      "relevance_score": 92,
+      "category": "legislative",
+      "fit_tier": "top",
+      "strengths": [
+        "Direct access to foreign policy and defense policy decision-making at the highest levels of government\u2014exactly your stated long-term goal.",
+        "Rare opportunity to observe and influence how technology and emerging-tech governance intersect with U.S. foreign policy, a core stated interest.",
+        "Congressional internship on your resume builds credibility for both policy careers and potential elected-office paths you're weighing.",
+        "SFRC work on appropriations and foreign aid aligns with your interest in fiscal policy and federal funding mechanisms for tech/materials research."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face stiff competition from juniors and seniors; timing is slightly early in your career arc.",
+        "Limited detail in posting makes it hard to assess whether the role includes exposure to S&T policy specifically or skews toward traditional diplomacy.",
+        "Internship is typically unpaid or modestly paid, which may limit your ability to pursue it if financial need is a factor."
+      ],
+      "fit_with_plans": "This is textbook preparation for a legislative or cabinet-advisory role in foreign and defense policy. A SFRC internship directly demonstrates your commitment to these domains and gives you insider understanding of how Congress shapes technology and defense governance.",
+      "difficulty": "Highly competitive; SFRC draws hundreds of applications per cycle, especially from top undergraduates. Your GPA and Batten track make you competitive, but sophomore status and lack of prior Hill experience are minor headwinds.",
+      "approach": "Apply immediately if applications are open. Emphasize your Foreign Affairs major, Batten MPP ambition, and specific interest in how S&T diplomacy and defense technology fit into SFRC's portfolio. If you have a Virginia or Texas connection, mention it. Consider reaching out to your congressional delegation's office for a referral or informational interview beforehand."
+    },
+    {
+      "id": "web:https://oampluspublic.senate.gov/public/login/1c05807e-fb37-43d3-ba2e-6a13731a79ad",
+      "title": "apply for an internship",
+      "org": "Senate Foreign Relations Committee \u2014 internships",
+      "location": "",
+      "url": "https://oampluspublic.senate.gov/public/login/1c05807e-fb37-43d3-ba2e-6a13731a79ad",
+      "summary": "",
+      "source": "Senate Foreign Relations Committee \u2014 internships",
+      "first_seen": "2026-06-10T22:44:23.877499+00:00",
+      "relevant": true,
+      "relevance_score": 92,
+      "category": "legislative",
+      "fit_tier": "top",
+      "strengths": [
+        "Direct exposure to U.S. foreign policy and defense at the legislative level\u2014the core of your long-term goal",
+        "Access to senior staff and senators shaping tech-in-foreign-policy and defense procurement issues",
+        "Prime positioning for future Capitol Hill roles and potential congressional staff track"
+      ],
+      "weaknesses": [
+        "Highly competitive (hundreds apply); sophomore standing is earlier than many applicants",
+        "Internship role itself is non-paid or low-paid and may not offer deep technical depth on materials-science policy specifically"
+      ],
+      "fit_with_plans": "This directly aligns with your stated path toward legislative/cabinet-advisory policymaking in foreign and defense policy. SFRC is where S&T diplomacy, defense strategy, and appropriations decisions originate.",
+      "difficulty": "Moderately difficult to land as a rising sophomore; SFRC is a flagship committee that attracts top-tier applicants, but your GPA, Batten track, and stated focus give you a credible shot.",
+      "approach": "Apply immediately with a tailored cover letter anchoring your interest in tech-in-foreign-policy and materials-science research competitiveness (DOE/NIST angles). Reference any relevant coursework or research. Follow up with the committee's chief of staff's office if possible; SFRC values early engagement from serious policy-track undergraduates."
+    },
+    {
+      "id": "web:https://www.cnas.org/next-generation-programs/nextgeneration",
+      "title": "The Shawn Brimley Next Generation National Security Leaders Fellowship",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/next-generation-programs/nextgeneration",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-10T22:44:23.877499+00:00",
+      "relevant": true,
+      "relevance_score": 92,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "CNAS is a premier defense and national security think tank with deep congressional and DoD ties\u2014perfectly aligned with your foreign policy, defense policy, and tech-in-governance interests.",
+        "Named fellowships (especially 'next generation') typically provide mentorship, policy-writing experience, and direct exposure to senior defense and security practitioners.",
+        "Think tank experience builds the policy research and analysis foundation needed for legislative/cabinet roles while keeping the entrepreneurial door open."
+      ],
+      "weaknesses": [
+        "Highly competitive; CNAS fellowships are coveted, and you're a rising sophomore with limited policy publications or clearance yet.",
+        "Fellowship timeline and stipend aren't specified; confirm it fits your academic calendar and supports your Batten MPP track."
+      ],
+      "fit_with_plans": "This directly supports your core goal of policymaking in U.S. foreign and defense policy, while offering concrete policy-writing and elite-network-building needed for legislative/cabinet advisory roles. It's also a natural stepping stone toward DOD or State Department roles later.",
+      "difficulty": "Very competitive; CNAS targets strong undergraduates and early-career professionals. Your GPA and Batten track are assets, but lack of policy internship or published work yet may require a compelling narrative linking your materials-science startup idea to national security.",
+      "approach": "Apply strong. Emphasize your Batten dual degree and specific interest in tech/materials as a national security domain; frame your startup concept around government funding/procurement to show you think at the policy level. If you haven't interned on the Hill or at a defense agency yet, signal that ambition in your cover letter."
+    },
+    {
+      "id": "web:https://www.cnas.org/next-generation-programs/internships",
+      "title": "Joseph S. Nye, Jr. National Security Internship and Mentoring Program",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/next-generation-programs/internships",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-10T22:44:23.877499+00:00",
+      "relevant": true,
+      "relevance_score": 88,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "CNAS is a leading defense and national security think tank with deep expertise in tech policy, defense strategy, and great-power competition\u2014all core to your foreign policy + defense policy + tech governance interests.",
+        "The Nye mentorship program pairs you with senior security experts, giving you direct access to mentors working on exactly the intersection of technology, defense, and statecraft you're targeting.",
+        "Think tank work at this level builds credibility for both the policy/government and tech entrepreneurship paths; it's a credential that opens doors to congressional staff, NSC, and cabinet advisory roles."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competitive pressure from older interns; CNAS internships are prestigious and attract strong applicants from all classes.",
+        "Think tank work is research-heavy and advisory rather than operational; if your primary goal is hands-on legislative or procurement work, this is more brain than action.",
+        "No direct clearance sponsorship mentioned, which limits later DoD/IC roles (though a CNAS internship makes you an attractive candidate for clearance positions post-college)."
+      ],
+      "fit_with_plans": "CNAS aligns perfectly with your long-term policymaking goal and your interest in defense, technology, and foreign policy integration. It's a springboard toward NSC, State Department, or defense-focused congressional advisory work.",
+      "difficulty": "Moderately competitive for a sophomore; CNAS is prestigious and selective, but your strong GPA, Foreign Affairs BA focus, and clear articulation of interest in national security + tech policy should make you a credible candidate if you can speak to why Nye's work resonates with you.",
+      "approach": "Apply directly and in your cover letter, connect Nye's work on leadership and great-power competition to your interest in tech-enabled defense strategy. Mention one or two recent CNAS papers on China, defense tech, or S&T policy that align with your goals. Request to speak with current or past interns about the program's focus."
+    },
+    {
+      "id": "web:https://www.cnas.org/next-generation-programs/robert-m-gates-fellowship",
+      "title": "Robert M. Gates Fellowship",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/next-generation-programs/robert-m-gates-fellowship",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-10T22:44:23.877499+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "CNAS is a leading think tank on defense, national security, and technology policy\u2014exactly your core interest areas",
+        "The Gates Fellowship targets high-potential undergraduates and offers deep policy exposure and mentorship in your target domain",
+        "CNAS has strong ties to DOD, State Department, and defense procurement circles, directly advancing your foreign/defense policy + tech governance goals"
+      ],
+      "weaknesses": [
+        "Highly competitive for undergraduates; you're a rising sophomore with limited prior policy experience",
+        "No guarantee of post-fellowship conversion to your specific interest in materials-science policy"
+      ],
+      "fit_with_plans": "This fellowship positions you perfectly for your legislative and cabinet-advisory aspirations by building your national-security and tech-policy credibility early. It's a natural stepping stone toward DOD, State, or defense-focused congressional roles.",
+      "difficulty": "Very competitive; CNAS attracts top undergraduates nationally and likely expects demonstrated interest in security policy or prior relevant internship/project work.",
+      "approach": "Apply with a crisp statement on why defense procurement and tech governance matter to U.S. competitiveness. If possible, highlight any coursework, writing, or side projects linking technology and security. Reach out to CNAS program leadership beforehand to ask about fit and strengthen your narrative around long-term policy ambitions."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/research-assistant-associate-transatlantic-security-program",
+      "title": "Research Assistant/Associate, Transatlantic Security Program",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/research-assistant-associate-transatlantic-security-program",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-10T22:44:23.877499+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "CNAS is a premier think tank on defense, national security, and foreign policy\u2014exactly aligned with your stated long-term focus on defense policy and U.S. foreign affairs.",
+        "A research role here builds credibility and deep policy expertise in security and technology governance, directly supporting your path to legislative or cabinet-advisory roles.",
+        "The Transatlantic Security Program specifically bridges defense policy and international relations, a sweet spot for someone interested in technology-defense-diplomacy nexus."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competition from more senior undergraduates or recent grads, particularly for 'Associate' positions.",
+        "Think tank work is advisory rather than legislative; if your primary goal is congressional work, this is adjacent rather than direct."
+      ],
+      "fit_with_plans": "This role accelerates your expertise in defense and foreign policy while building a network in DC policy circles. It directly serves your goal of policymaking in these areas and may inform your decision between legislative and cabinet-advisory tracks.",
+      "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong candidates, but they do hire undergraduates for research assistant roles\u2014your GPA, interest specificity, and UVA standing are assets.",
+      "approach": "Apply with a tailored cover letter emphasizing your interest in transatlantic security and tech-defense policy, highlight any relevant coursework or self-directed learning on NATO, defense tech, or international security, and if possible, mention a specific CNAS recent publication or program that inspired your application."
+    }
+  ]
 }
