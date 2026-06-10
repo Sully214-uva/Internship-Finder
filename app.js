@@ -574,9 +574,10 @@ async function runAiSearch() {
   results.innerHTML = `<p class="muted">Asking Claude… (a few seconds)</p>`;
 
   const system =
-    "You are a sharp career advisor for the specific student described. Suggest 4-6 REAL, " +
+    "You are a sharp career advisor for the specific student described. Suggest the 3-4 " +
+    "STRONGEST, best-fit options — quality over quantity, not an exhaustive list. Use REAL, " +
     "nameable internship/fellowship programs, offices, committees, think tanks, labs, or firms " +
-    "that fit their goals and the search parameters. Be concrete and honest — enforce eligibility " +
+    "that fit their goals and the search parameters. Be concrete and concise — enforce eligibility " +
     "(undergraduate, U.S. citizen). Use the fit tiers top/strong/stretch/fallback.";
   const userMsg =
     `STUDENT PROFILE: ${PROFILE_SUMMARY}\n\n` +
@@ -594,7 +595,7 @@ async function runAiSearch() {
       },
       body: JSON.stringify({
         model: model,
-        max_tokens: 2000,
+        max_tokens: 3000,   // a ceiling, not a target — you pay only for what's written
         system: system,
         messages: [{ role: "user", content: userMsg }],
         output_config: { format: { type: "json_schema", schema: SEARCH_SCHEMA } },
@@ -614,11 +615,23 @@ async function runAiSearch() {
 
     const data = await resp.json();
     const text = (data.content.find(b => b.type === "text") || {}).text || "{}";
-    const parsed = JSON.parse(text);
+
+    let parsed;
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      // Almost always means the answer hit the token limit and got cut off.
+      const cutOff = data.stop_reason === "max_tokens";
+      results.innerHTML = `<div class="card"><b>The response got cut off.</b>
+        <p class="muted">${cutOff ? "Claude ran out of room. " : ""}Just click
+        “Get suggestions” again, or narrow your search a little.</p></div>`;
+      return;
+    }
     renderSearchResults(parsed.suggestions || []);
   } catch (err) {
     results.innerHTML = `<div class="card"><b>Network error.</b>
-      <p class="muted">${err.message}. Check your connection and try again.</p></div>`;
+      <p class="muted">${err.message}. If you're on Safari/Brave, try Chrome or turn off
+      privacy blockers for this site.</p></div>`;
   }
 }
 
