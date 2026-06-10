@@ -1,0 +1,6 @@
+# Python dependencies for the live-monitoring backend.
+# Install with:  pip install -r scraper/requirements.txt
+anthropic>=0.40.0     # official Claude SDK (AI matching + analysis)
+requests>=2.31.0      # HTTP for USAJOBS API and webpage scraping
+PyYAML>=6.0           # read profile.yaml / sources.yaml
+feedparser>=6.0.0     # parse RSS/Atom feeds (optional but recommended)

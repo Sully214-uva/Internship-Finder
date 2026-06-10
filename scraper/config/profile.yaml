@@ -1,0 +1,79 @@
+# profile.yaml — WHO YOU ARE, in a form the AI matcher can read.
+#
+# build_feed.py loads this and hands it to Claude so the AI can judge, for each
+# live posting it finds: is this relevant to ME, how well does it FIT my plans,
+# how HARD is it to get, and what APPROACH should I take. Edit freely — the more
+# accurate this is, the better the matching and the analysis.
+
+# A short prose bio. This is the single most important field for the AI.
+bio: >
+  Rising sophomore at the University of Virginia on a 5-year track: Foreign
+  Affairs BA + the Batten Accelerated MPP. GPA ~3.91. U.S. citizen. Long-term
+  goal: a career in policymaking — legislative or cabinet-advisory roles —
+  focused on U.S. foreign and defense policy and the intersection of technology
+  and governance. Parallel interest in materials-science data infrastructure as
+  a policy and expertise domain, and an entrepreneurial streak (a materials-
+  science startup idea that would rely on government funding/contracts). Weighs
+  three paths: (1) policy/government, (2) politics/elected office, (3) tech
+  entrepreneurship dependent on federal funding/contracts.
+
+# Eligibility facts the AI should enforce (don't surface roles you can't get).
+eligibility:
+  level: undergraduate        # sophomore
+  citizenship: US             # eligible for federal + clearance-track roles
+  graduation_year: 2030        # 5-year combined degree
+  clearance: none_yet          # willing to start clearance processes
+
+# Interest areas, roughly highest-priority first. Used as matching signal.
+interest_areas:
+  - U.S. foreign policy and diplomacy (esp. science & technology diplomacy)
+  - Defense policy, defense procurement, and government contracting
+  - Tech policy and the governance of emerging technology
+  - Materials science policy / federal research funding (DOE, NIST, national labs)
+  - Appropriations, fiscal policy, infrastructure policy
+  - Intellectual-property law and policy (esp. tied to materials/technology)
+  - Congressional work, with a Virginia or Texas home-state angle
+  - Think tanks working on security, defense, and technology
+
+# Keyword weights (1-5). Higher = stronger relevance signal. The AI uses these
+# as hints, not hard rules — it reasons about meaning, not just word matches.
+keywords:
+  defense procurement: 5
+  national security: 5
+  foreign policy: 5
+  science and technology policy: 5
+  materials science: 5
+  tech policy: 4
+  appropriations: 4
+  government contracting: 4
+  intellectual property: 4
+  energy policy: 4
+  Department of Energy: 4
+  State Department: 4
+  Department of Defense: 4
+  NIST: 4
+  diplomacy: 4
+  congressional: 3
+  think tank: 3
+  Virginia: 3
+  Texas: 3
+  infrastructure: 3
+  legislative: 3
+  policy research: 3
+
+# Geographic preference (not a hard filter — remote/DC strongly preferred).
+locations_preferred:
+  - Washington, DC
+  - Virginia
+  - Texas
+  - Remote
+
+# How to read fit tiers, so the AI labels consistently.
+fit_tiers:
+  top: Bullseye for the foreign/defense + tech-in-governance + materials-policy goal.
+  strong: Clearly on-path and worth a serious application.
+  stretch: Relevant but competitive or a reach for a sophomore.
+  fallback: Tangential or a safety option; take only if higher tiers don't land.
+
+# Minimum AI relevance score (0-100) for a posting to appear in the feed.
+relevance_threshold: 55

@@ -1,0 +1,58 @@
+# sources.yaml — WHERE to look for live postings.
+#
+# Three kinds of source, each handled by a fetcher in fetchers.py:
+#   usajobs  — the official USAJOBS API (federal jobs). Reliable & structured.
+#   rss      — any RSS/Atom feed (many career/news pages publish one).
+#   webpage  — a generic HTML page; we extract links that look like job posts.
+#
+# Add/remove freely. USAJOBS is the workhorse; rss/webpage are best-effort for
+# Congress, think tanks, and startups (those sites have no standard API).
+
+# ---- USAJOBS API queries -------------------------------------------------
+# Each query is one search. The fetcher adds your domain to the results.
+# `hiring_path: student` targets internships/Pathways. Keyword is free text.
+# Tip: keep queries focused; several narrow queries beat one broad one.
+usajobs:
+  - name: "Federal internships — foreign & science/tech policy"
+    keyword: "intern foreign policy OR science policy OR technology policy"
+    hiring_path: student
+    results: 50
+  - name: "Federal internships — defense & procurement"
+    keyword: "intern defense OR acquisition OR procurement OR national security"
+    hiring_path: student
+    results: 50
+  - name: "Federal internships — energy & materials research"
+    keyword: "intern energy OR materials OR research OR laboratory"
+    hiring_path: student
+    results: 50
+  - name: "Pathways — Department of State"
+    keyword: "student intern"
+    organization: "ST"     # State Dept agency code on USAJOBS
+    hiring_path: student
+    results: 25
+  - name: "Pathways — Department of Energy"
+    keyword: "student intern"
+    organization: "DN"     # Department of Energy agency code
+    hiring_path: student
+    results: 25
+
+# ---- RSS / Atom feeds ----------------------------------------------------
+# Replace/add real feed URLs as you find them. Examples are placeholders —
+# the fetcher skips any feed it can't reach, so leaving them is harmless.
+rss:
+  - name: "USAJOBS keyword feed — materials policy"
+    # USAJOBS also exposes RSS; swap in your tuned query URL.
+    url: "https://www.usajobs.gov/Search/feed?k=materials%20policy&hp=student"
+  # - name: "CSIS careers (if/when they publish a feed)"
+  #   url: "https://www.csis.org/careers/feed"
+
+# ---- Generic web pages ---------------------------------------------------
+# Best-effort: we fetch the page and keep links whose text/href looks like an
+# internship. Brittle by nature (sites change), so treat results as leads.
+webpage:
+  - name: "Senate Foreign Relations Committee — internships"
+    url: "https://www.foreign.senate.gov/about/internships"
+  - name: "CSIS — internships & jobs"
+    url: "https://www.csis.org/programs/about-us/internships-and-jobs"
+  - name: "CNAS — careers"
+    url: "https://www.cnas.org/careers"

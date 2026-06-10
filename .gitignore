@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local backups exported from the app
+internship-finder-backup.json
+
+# OS noise
+.DS_Store
+
+# Editor / local tooling config (not part of the project)
+.claude/
+
+# NOTE: data/feed.json IS committed on purpose — the GitHub Action writes it
+# and GitHub Pages serves it to the Live Feed tab.

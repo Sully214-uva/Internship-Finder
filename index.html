@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+  index.html — the single page.
+  This file defines the STRUCTURE of the app (the "skeleton").
+  Styling lives in styles.css, and all behavior lives in app.js.
+  Keeping those three concerns in separate files is called
+  "separation of concerns" — it makes each file easier to read and change.
+
+  To use the app: just double-click this file. It opens in your browser.
+  No server, no install. Your data is saved automatically in the browser.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internship Finder — Application Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header: title + the buttons that back up / reset your data ===== -->
+  <header class="app-header">
+    <div>
+      <h1>Internship Finder</h1>
+      <p class="subtitle">Foreign &amp; defense policy · tech-in-governance · materials-science data</p>
+    </div>
+    <div class="header-actions">
+      <button id="btn-export" class="btn btn-ghost" title="Download your data as a backup file">Export</button>
+      <button id="btn-import" class="btn btn-ghost" title="Load data from a backup file">Import</button>
+      <button id="btn-reset"  class="btn btn-ghost btn-danger" title="Erase your data and reload the seeded opportunities">Reset</button>
+      <!-- Hidden file input used by the Import button -->
+      <input type="file" id="import-file" accept="application/json" hidden />
+    </div>
+  </header>
+
+  <!-- ===== Navigation tabs: clicking one switches the visible "view" ===== -->
+  <nav class="tabs" id="tabs">
+    <button class="tab" data-view="dashboard">Dashboard</button>
+    <button class="tab" data-view="opportunities">Opportunities</button>
+    <button class="tab" data-view="timeline">Timeline</button>
+    <button class="tab" data-view="documents">Documents</button>
+    <button class="tab" data-view="live">Live Feed</button>
+  </nav>
+
+  <!-- ===== Main content. app.js fills this in depending on the active tab. ===== -->
+  <main id="view-root"></main>
+
+  <!-- ===== Detail editor. Hidden until you click an opportunity. ===== -->
+  <!-- A "modal" is a panel that floats on top of the page with a dimmed backdrop. -->
+  <div id="modal-backdrop" class="modal-backdrop" hidden>
+    <div class="modal" id="modal"></div>
+  </div>
+
+  <footer class="app-footer">
+    <span id="footer-status"></span>
+  </footer>
+
+  <!-- Load the logic LAST, so the HTML elements above already exist when it runs. -->
+  <script src="app.js"></script>
+</body>
+</html>

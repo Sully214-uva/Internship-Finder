@@ -1,0 +1,61 @@
+# .github/workflows/update.yml
+# The free, always-on scheduler. GitHub runs this on a cron (even when your
+# laptop is off): it fetches sources, asks Claude to match + analyze new
+# postings, writes data/feed.json, emails you new matches, and commits the
+# updated feed. GitHub Pages then serves the updated site automatically.
+#
+# One-time setup (repo Settings):
+#   • Secrets and variables → Actions → New repository secret, add:
+#       ANTHROPIC_API_KEY, USAJOBS_EMAIL, USAJOBS_API_KEY,
+#       GMAIL_ADDRESS, GMAIL_APP_PASSWORD   (and optional NOTIFY_TO, MODEL, SITE_URL)
+#   • Pages → Build and deployment → Source: "Deploy from a branch" → main → / (root)
+# See SETUP.md for step-by-step instructions.
+
+name: Update internship feed
+
+on:
+  schedule:
+    - cron: "0 13 * * *"     # daily at 13:00 UTC (~8–9am US Eastern)
+  workflow_dispatch: {}        # also lets you run it manually from the Actions tab
+
+permissions:
+  contents: write              # needed to commit the updated feed.json
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Build the feed (fetch → AI match → analyze → email)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          USAJOBS_EMAIL:     ${{ secrets.USAJOBS_EMAIL }}
+          USAJOBS_API_KEY:   ${{ secrets.USAJOBS_API_KEY }}
+          GMAIL_ADDRESS:     ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_TO:         ${{ secrets.NOTIFY_TO }}     # optional
+          MODEL:             ${{ secrets.MODEL }}          # optional (default claude-opus-4-8)
+          SITE_URL:          ${{ secrets.SITE_URL }}       # optional, for email links
+        run: python scraper/build_feed.py
+
+      - name: Commit the updated feed
+        run: |
+          git config user.name  "internship-finder-bot"
+          git config user.email "actions@github.com"
+          git add data/feed.json
+          if git diff --staged --quiet; then
+            echo "No feed changes."
+          else
+            git commit -m "Update feed ($(date -u +%Y-%m-%d))"
+            git push
+          fi

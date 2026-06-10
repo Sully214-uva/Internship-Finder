@@ -1,0 +1,231 @@
+/*
+  styles.css — all the visual styling for the app.
+
+  CSS works by selecting HTML elements (by tag, .class, or #id) and giving
+  them properties (color, spacing, etc.). I've grouped the rules by section
+  so you can find things. The ":root" block at the top defines reusable
+  "variables" (called custom properties) — change a color once there and it
+  updates everywhere.
+*/
+
+/* ===== Design tokens: change these to re-theme the whole app ===== */
+:root {
+  --bg:        #f6f7f9;   /* page background */
+  --surface:   #ffffff;   /* cards / panels */
+  --border:    #e2e5ea;
+  --text:      #1c2230;
+  --text-soft: #5b6472;
+  --accent:    #2b59c3;   /* primary brand blue */
+  --accent-d:  #1f4296;
+
+  /* Fit-tier colors (top / strong / stretch / fallback) */
+  --tier-top:      #1f8a4c;
+  --tier-strong:   #2b59c3;
+  --tier-stretch:  #b8860b;
+  --tier-fallback: #6b7280;
+
+  /* Urgency colors for deadline reminders */
+  --urgent:  #c0392b;   /* very soon */
+  --soon:    #b8860b;   /* approaching */
+  --calm:    #1f8a4c;   /* plenty of time */
+
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(16,24,40,.08), 0 1px 2px rgba(16,24,40,.06);
+}
+
+/* ===== Base ===== */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.45;
+}
+h1, h2, h3 { margin: 0 0 .25em; }
+a { color: var(--accent); }
+button { font: inherit; cursor: pointer; }
+
+/* ===== Header ===== */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.app-header h1 { font-size: 1.4rem; }
+.subtitle { margin: 0; color: var(--text-soft); font-size: .85rem; }
+.header-actions { display: flex; gap: .5rem; }
+
+/* ===== Buttons ===== */
+.btn {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: .5rem .9rem;
+  border-radius: 8px;
+  transition: background .15s, border-color .15s;
+}
+.btn:hover { background: #eef1f6; }
+.btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.btn-primary:hover { background: var(--accent-d); }
+.btn-ghost { background: transparent; }
+.btn-danger { color: var(--urgent); }
+.btn-danger:hover { background: #fdecea; }
+
+/* ===== Tabs ===== */
+.tabs {
+  display: flex;
+  gap: .25rem;
+  padding: 0 1.5rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.tab {
+  border: none;
+  background: none;
+  padding: .85rem 1rem;
+  color: var(--text-soft);
+  border-bottom: 3px solid transparent;
+  font-weight: 500;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ===== Main layout ===== */
+main { padding: 1.5rem; max-width: 1100px; margin: 0 auto; }
+.section-title { font-size: 1.1rem; margin: 1.5rem 0 .75rem; }
+.section-title:first-child { margin-top: 0; }
+.muted { color: var(--text-soft); font-size: .9rem; }
+
+/* ===== Cards ===== */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 1.1rem;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+/* Opportunity card */
+.opp-card { cursor: pointer; display: flex; flex-direction: column; gap: .5rem; }
+.opp-card:hover { border-color: var(--accent); }
+.opp-card .org { color: var(--text-soft); font-size: .85rem; }
+.opp-card h3 { font-size: 1.02rem; }
+.opp-meta { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+
+/* ===== Badges ===== */
+.badge {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 600;
+  padding: .15rem .5rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  color: #fff;
+}
+.badge-top      { background: var(--tier-top); }
+.badge-strong   { background: var(--tier-strong); }
+.badge-stretch  { background: var(--tier-stretch); }
+.badge-fallback { background: var(--tier-fallback); }
+
+.badge-cat {
+  background: #eef1f6;
+  color: var(--text-soft);
+  text-transform: none;
+  font-weight: 500;
+}
+
+/* Status pill (outline style) */
+.status-pill {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 600;
+  padding: .15rem .55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+.status-not_started { color: var(--text-soft); }
+.status-researching { color: #6b21a8; border-color: #6b21a8; }
+.status-drafting    { color: #b8860b; border-color: #b8860b; }
+.status-submitted   { color: var(--accent); border-color: var(--accent); }
+.status-interviewing{ color: #0e7490; border-color: #0e7490; }
+.status-offer       { color: #fff; background: var(--tier-top); border-color: var(--tier-top); }
+.status-rejected    { color: var(--text-soft); background: #f1f2f4; text-decoration: line-through; }
+
+/* ===== Dashboard reminder rows ===== */
+.reminder {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: .7rem .9rem; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface); margin-bottom: .5rem;
+}
+.reminder .left { display: flex; flex-direction: column; }
+.reminder .when { font-weight: 600; white-space: nowrap; }
+.when-urgent { color: var(--urgent); }
+.when-soon   { color: var(--soon); }
+.when-calm   { color: var(--calm); }
+
+.stat-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.stat {
+  flex: 1; min-width: 120px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: .9rem 1rem; box-shadow: var(--shadow);
+}
+.stat .num { font-size: 1.6rem; font-weight: 700; }
+.stat .lbl { color: var(--text-soft); font-size: .8rem; }
+
+/* ===== Timeline table ===== */
+.timeline-wrap { overflow-x: auto; }
+table.timeline { border-collapse: collapse; width: 100%; font-size: .8rem; }
+.timeline th, .timeline td { border: 1px solid var(--border); padding: .35rem .4rem; text-align: center; }
+.timeline th.opp-name, .timeline td.opp-name { text-align: left; white-space: nowrap; background: var(--surface); position: sticky; left: 0; }
+.timeline th { background: #eef1f6; font-weight: 600; }
+.cell-open  { background: #dbe7ff; }       /* month is inside the application window */
+.cell-close { background: var(--accent); } /* the closing month */
+.cell-today { outline: 2px solid var(--urgent); outline-offset: -2px; }
+.legend { display: flex; gap: 1rem; flex-wrap: wrap; margin: .75rem 0; font-size: .8rem; color: var(--text-soft); }
+.legend .swatch { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: middle; margin-right: .35rem; border: 1px solid var(--border); }
+
+/* ===== Documents matrix ===== */
+.doc-table { border-collapse: collapse; width: 100%; font-size: .85rem; background: var(--surface); }
+.doc-table th, .doc-table td { border: 1px solid var(--border); padding: .5rem .6rem; text-align: center; }
+.doc-table th.doc-opp, .doc-table td.doc-opp { text-align: left; }
+.doc-progress { font-size: .8rem; color: var(--text-soft); }
+
+/* ===== Modal (detail editor) ===== */
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(16,24,40,.45);
+  display: flex; align-items: flex-start; justify-content: center;
+  padding: 3rem 1rem; overflow-y: auto; z-index: 50;
+}
+/* When the `hidden` attribute is present, stay hidden. A plain `display: flex`
+   above would otherwise win on specificity and show the empty modal on load. */
+.modal-backdrop[hidden] { display: none; }
+.modal {
+  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  width: 100%; max-width: 620px; padding: 1.5rem;
+}
+.modal h2 { font-size: 1.25rem; }
+.modal .field { margin-bottom: 1rem; }
+.modal label { display: block; font-weight: 600; font-size: .85rem; margin-bottom: .25rem; }
+.modal input[type="date"], .modal select, .modal textarea {
+  width: 100%; padding: .5rem; border: 1px solid var(--border); border-radius: 8px; font: inherit;
+}
+.modal textarea { min-height: 80px; resize: vertical; }
+.modal .row { display: flex; gap: 1rem; }
+.modal .row .field { flex: 1; }
+.modal .doc-checks label { font-weight: 400; display: flex; align-items: center; gap: .5rem; margin-bottom: .3rem; }
+.modal-actions { display: flex; justify-content: space-between; gap: .5rem; margin-top: 1.25rem; }
+.fit-note { background: #f1f5fd; border-left: 3px solid var(--accent); padding: .6rem .8rem; border-radius: 6px; font-size: .9rem; }
+
+/* ===== Footer ===== */
+.app-footer { padding: 1rem 1.5rem; color: var(--text-soft); font-size: .8rem; text-align: center; }
