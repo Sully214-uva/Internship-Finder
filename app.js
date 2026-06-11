@@ -946,8 +946,9 @@ function openModal(id) {
     </div>
 
     <div class="modal-actions">
-      <a class="btn" href="${o.applyUrl}" target="_blank" rel="noopener">Open application ↗</a>
-      <div>
+      <button class="btn btn-ghost btn-danger" id="f-delete">Remove</button>
+      <div style="display:flex; gap:.5rem; align-items:center">
+        <a class="btn" href="${o.applyUrl}" target="_blank" rel="noopener">Open application ↗</a>
         <button class="btn btn-ghost" id="f-cancel">Cancel</button>
         <button class="btn btn-primary" id="f-save">Save</button>
       </div>
@@ -958,6 +959,7 @@ function openModal(id) {
   // Wire up the buttons inside the freshly-built form.
   document.getElementById("f-cancel").onclick = closeModal;
   document.getElementById("f-save").onclick   = saveModal;
+  document.getElementById("f-delete").onclick = () => deleteOpportunity(state.editingId);
 }
 
 function saveModal() {
@@ -984,6 +986,18 @@ function saveModal() {
 function closeModal() {
   backdrop.hidden = true;
   state.editingId = null;
+}
+
+// Permanently remove an opportunity from the tracked list (with confirmation).
+function deleteOpportunity(id) {
+  const o = state.opportunities.find(x => x.id === id);
+  if (!o) return;
+  if (!confirm(`Remove “${o.name}” from your list? This can't be undone.`)) return;
+  state.opportunities = state.opportunities.filter(x => x.id !== id);
+  saveData();
+  closeModal();
+  render();
+  setFooter("Removed " + o.name);
 }
 
 // Clicking the dimmed area outside the modal closes it.
