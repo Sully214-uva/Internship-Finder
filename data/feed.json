@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T16:25:32.693989+00:00",
-  "count": 8,
+  "generated_at": "2026-06-13T15:05:16.644661+00:00",
+  "count": 11,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -138,6 +138,33 @@
       "approach": "Apply directly and in your cover letter, connect Nye's work on leadership and great-power competition to your interest in tech-enabled defense strategy. Mention one or two recent CNAS papers on China, defense tech, or S&T policy that align with your goals. Request to speak with current or past interns about the program's focus."
     },
     {
+      "id": "web:https://www.cnas.org/people?group=joseph-s-nye",
+      "title": "Joseph S. Nye Interns",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/people?group=joseph-s-nye",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-13T15:03:52.703422+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "CNAS is a world-class think tank on defense, technology, and strategy\u2014perfectly aligned with your core interest in defense policy and tech governance",
+        "Named fellowship honoring Joseph Nye signals serious intellectual depth on statecraft and power; direct pipeline to influence on U.S. foreign and defense policy",
+        "Think-tank internships build policy research and writing skills while offering mentorship from practitioners and policymakers\u2014ideal preparation for legislative or cabinet-advisory roles"
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you're early for a prestigious fellowship; expect strong competition from juniors and seniors",
+        "Think-tank work is policy *research* rather than direct government authority, so it's a stepping stone rather than your ultimate destination",
+        "No location or description provided; if not DC-based or if the focus drifts from your priorities, fit could weaken"
+      ],
+      "fit_with_plans": "CNAS is a clear fit for Path 1 (policy/government): it builds credibility in defense and tech policy, deepens your expertise in materials-science governance and foreign policy, and creates relationships with decision-makers you'll need for Hill or Cabinet roles. A Nye fellowship is a prestigious credential for a future MPP + government career.",
+      "difficulty": "Moderately difficult for a sophomore\u2014CNAS attracts strong applicants, but your 3.91 GPA, Batten dual-degree track, and clear focus on defense/tech policy are genuine assets. Apply early and emphasize your materials-science startup angle and long-term policy ambitions.",
+      "approach": "Contact CNAS directly to confirm location, timeline, and whether the role touches defense procurement, tech policy, or materials-science research infrastructure. If it aligns, submit a focused application emphasizing your Batten pathway, your specific interest in tech-defense policy, and (briefly) your startup vision. Reference Nye's work on technology and statecraft to show you've done your homework."
+    },
+    {
       "id": "web:https://www.cnas.org/people?group=next-generation-national-security-fellows",
       "title": "Next Generation National Security Fellows",
       "org": "CNAS \u2014 careers",
@@ -214,6 +241,60 @@
       "fit_with_plans": "This role accelerates your expertise in defense and foreign policy while building a network in DC policy circles. It directly serves your goal of policymaking in these areas and may inform your decision between legislative and cabinet-advisory tracks.",
       "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong candidates, but they do hire undergraduates for research assistant roles\u2014your GPA, interest specificity, and UVA standing are assets.",
       "approach": "Apply with a tailored cover letter emphasizing your interest in transatlantic security and tech-defense policy, highlight any relevant coursework or self-directed learning on NATO, defense tech, or international security, and if possible, mention a specific CNAS recent publication or program that inspired your application."
+    },
+    {
+      "id": "web:https://www.cnas.org/research/indo-pacific-security/the-india-opportunity",
+      "title": "U.S.-India: Realizing the Potential",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/research/indo-pacific-security/the-india-opportunity",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-13T15:03:52.703422+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a premier defense and security-focused think tank with deep expertise in great-power competition and technology policy\u2014core to your foreign and defense policy goals",
+        "India policy intersects with both U.S. strategic interests and tech/defense procurement dynamics, offering concrete exposure to how geopolitical strategy shapes technology governance",
+        "CNAS fellows and staff regularly influence congressional testimony and executive-branch policy, positioning you for your legislative/cabinet-advisory trajectory"
+      ],
+      "weaknesses": [
+        "As a sophomore, you may face competitive pressure from upper-classmen and those with prior policy internships; CNAS typically targets strong candidates with demonstrated policy interest",
+        "India-specific focus is narrower than your broader foreign/defense portfolio, though it does touch your tech-diplomacy interests",
+        "The posting lacks detail on role scope and learning outcomes, making it harder to assess hands-on contribution vs. grunt work"
+      ],
+      "fit_with_plans": "A CNAS internship directly advances your legislative-and-executive-branch policymaking goals by exposing you to how leading defense think tanks shape U.S. foreign policy, particularly at the intersection of geopolitics and technology. This aligns with your science-and-technology diplomacy focus.",
+      "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong undergraduates and early-career professionals, so you'll need to demonstrate genuine engagement with U.S.-India relations and defense policy in your application.",
+      "approach": "Contact CNAS's career team to clarify the role scope and learning objectives. Prepare a brief statement linking India's role in semiconductor supply chains, defense partnerships, or tech standards to your broader interest in tech governance and national security. If you have any prior coursework or projects on great-power competition or defense policy, highlight those."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/communications-specialist-national-security-narrative-lab",
+      "title": "Communications Specialist: National Security Narrative Lab",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/communications-specialist-national-security-narrative-lab",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-13T15:03:52.703422+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national security think tank with deep congressional relationships\u2014direct pipeline to the policy/government path you're pursuing",
+        "Communications roles at security-focused institutions build narrative and messaging expertise around defense/foreign policy, a skill legislators and cabinet advisors value highly",
+        "Proximity to CNAS's research on defense technology, great-power competition, and security innovation aligns with your tech-in-governance and defense policy focus"
+      ],
+      "weaknesses": [
+        "Communications/narrative work is one step removed from direct policymaking\u2014you'd be supporting analysts rather than driving policy yourself",
+        "Sophomore hiring for think tank comms roles is competitive; you may face candidates with more media or writing experience",
+        "The vague posting (no description provided) makes it hard to assess whether this is research support, external comms, or media relations\u2014could be less policy-facing than ideal"
+      ],
+      "fit_with_plans": "CNAS positions you adjacent to the defense policy ecosystem and builds communication chops that serve any of your three paths (policy, politics, or tech entrepreneurship pitches). It's a natural waypoint toward congressional work or cabinet advisory roles.",
+      "difficulty": "Moderately competitive for a sophomore, especially without prior comms or think tank experience\u2014CNAS attracts strong undergrads, but they do hire interns. Your GPA and foreign affairs focus help; lack of writing samples or comms background is the risk.",
+      "approach": "Request the full job description immediately\u2014confirm whether this is research comms, media outreach, or internal narrative work. Build a portfolio of 2\u20133 strong written pieces on defense/tech policy (personal blog, Op-Ed, or coursework) and highlight any prior writing or public-speaking experience. Reach out to CNAS alumni from UVA if possible to get an internal referral."
     }
   ]
 }
