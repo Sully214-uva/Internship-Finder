@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T15:11:07.433222+00:00",
-  "count": 12,
+  "generated_at": "2026-06-15T17:58:08.040654+00:00",
+  "count": 10,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -217,32 +217,6 @@
       "approach": "Apply with a crisp statement on why defense procurement and tech governance matter to U.S. competitiveness. If possible, highlight any coursework, writing, or side projects linking technology and security. Reach out to CNAS program leadership beforehand to ask about fit and strengthen your narrative around long-term policy ambitions."
     },
     {
-      "id": "web:https://www.cnas.org/careers/research-assistant-associate-transatlantic-security-program",
-      "title": "Research Assistant/Associate, Transatlantic Security Program",
-      "org": "CNAS \u2014 careers",
-      "location": "",
-      "url": "https://www.cnas.org/careers/research-assistant-associate-transatlantic-security-program",
-      "summary": "",
-      "source": "CNAS \u2014 careers",
-      "first_seen": "2026-06-10T22:44:23.877499+00:00",
-      "relevant": true,
-      "relevance_score": 78,
-      "category": "think tank",
-      "fit_tier": "top",
-      "strengths": [
-        "CNAS is a premier think tank on defense, national security, and foreign policy\u2014exactly aligned with your stated long-term focus on defense policy and U.S. foreign affairs.",
-        "A research role here builds credibility and deep policy expertise in security and technology governance, directly supporting your path to legislative or cabinet-advisory roles.",
-        "The Transatlantic Security Program specifically bridges defense policy and international relations, a sweet spot for someone interested in technology-defense-diplomacy nexus."
-      ],
-      "weaknesses": [
-        "As a rising sophomore, you may face competition from more senior undergraduates or recent grads, particularly for 'Associate' positions.",
-        "Think tank work is advisory rather than legislative; if your primary goal is congressional work, this is adjacent rather than direct."
-      ],
-      "fit_with_plans": "This role accelerates your expertise in defense and foreign policy while building a network in DC policy circles. It directly serves your goal of policymaking in these areas and may inform your decision between legislative and cabinet-advisory tracks.",
-      "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong candidates, but they do hire undergraduates for research assistant roles\u2014your GPA, interest specificity, and UVA standing are assets.",
-      "approach": "Apply with a tailored cover letter emphasizing your interest in transatlantic security and tech-defense policy, highlight any relevant coursework or self-directed learning on NATO, defense tech, or international security, and if possible, mention a specific CNAS recent publication or program that inspired your application."
-    },
-    {
       "id": "web:https://www.cnas.org/research/indo-pacific-security/the-india-opportunity",
       "title": "U.S.-India: Realizing the Potential",
       "org": "CNAS \u2014 careers",
@@ -268,33 +242,6 @@
       "fit_with_plans": "A CNAS internship directly advances your legislative-and-executive-branch policymaking goals by exposing you to how leading defense think tanks shape U.S. foreign policy, particularly at the intersection of geopolitics and technology. This aligns with your science-and-technology diplomacy focus.",
       "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong undergraduates and early-career professionals, so you'll need to demonstrate genuine engagement with U.S.-India relations and defense policy in your application.",
       "approach": "Contact CNAS's career team to clarify the role scope and learning objectives. Prepare a brief statement linking India's role in semiconductor supply chains, defense partnerships, or tech standards to your broader interest in tech governance and national security. If you have any prior coursework or projects on great-power competition or defense policy, highlight those."
-    },
-    {
-      "id": "web:https://www.cnas.org/careers/ai-systems-coordinator",
-      "title": "AI Systems Coordinator",
-      "org": "CNAS \u2014 careers",
-      "location": "",
-      "url": "https://www.cnas.org/careers/ai-systems-coordinator",
-      "summary": "",
-      "source": "CNAS \u2014 careers",
-      "first_seen": "2026-06-14T15:09:50.819465+00:00",
-      "relevant": true,
-      "relevance_score": 72,
-      "category": "think tank",
-      "fit_tier": "strong",
-      "strengths": [
-        "CNAS is a top-tier defense and national security think tank with deep expertise in technology governance and emerging threats\u2014a direct match for your foreign policy + tech policy intersection",
-        "Coordinator roles at think tanks offer broad exposure to research, policy briefs, and senior fellows' work, giving you insight into how security policy is actually shaped",
-        "An AI systems focus aligns perfectly with your tech-in-governance agenda and will build credibility for future roles in defense tech policy or cabinet-advisory work"
-      ],
-      "weaknesses": [
-        "As a coordinator (not analyst or fellow) you may spend significant time on administrative tasks rather than substantive policy work\u2014verify the actual duties before applying",
-        "No description provided, so you cannot assess whether this involves deep technical AI work or just project logistics",
-        "CNAS is based in DC but the posting location is blank; confirm whether it's remote, in-office, or a dealbreaker commute"
-      ],
-      "fit_with_plans": "This role sits at the nexus of your three paths: it builds credentials in defense + tech policy (path 1), offers networking with policymakers and potential political connections (path 2), and gives you hands-on exposure to how federal R&D funding and national security priorities intersect with AI\u2014crucial for your materials-science startup idea (path 3).",
-      "difficulty": "Moderately competitive for a rising sophomore; CNAS likely receives strong applicants, but coordinator roles have lower barriers than analyst positions and think tanks value well-informed undergrads with genuine policy interest. Your Foreign Affairs major, strong GPA, and specific interest in tech security should help.",
-      "approach": "Reach out directly to CNAS's HR or the relevant program director (ideally someone working on AI or defense technology) to ask what the role actually entails and whether it involves policy research or primarily administrative support. Tailor your application to emphasize your materials-science policy interest and long-term focus on national security + tech governance. If the role is substantive, pursue it aggressively."
     },
     {
       "id": "web:https://www.cnas.org/careers/communications-specialist-national-security-narrative-lab",
