@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T16:41:54.329998+00:00",
-  "count": 10,
+  "generated_at": "2026-06-18T16:39:06.933538+00:00",
+  "count": 11,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -269,6 +269,33 @@
       "fit_with_plans": "CNAS positions you adjacent to the defense policy ecosystem and builds communication chops that serve any of your three paths (policy, politics, or tech entrepreneurship pitches). It's a natural waypoint toward congressional work or cabinet advisory roles.",
       "difficulty": "Moderately competitive for a sophomore, especially without prior comms or think tank experience\u2014CNAS attracts strong undergrads, but they do hire interns. Your GPA and foreign affairs focus help; lack of writing samples or comms background is the risk.",
       "approach": "Request the full job description immediately\u2014confirm whether this is research comms, media outreach, or internal narrative work. Build a portfolio of 2\u20133 strong written pieces on defense/tech policy (personal blog, Op-Ed, or coursework) and highlight any prior writing or public-speaking experience. Reach out to CNAS alumni from UVA if possible to get an internal referral."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/project-coordinator",
+      "title": "Project Coordinator",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/project-coordinator",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-18T16:38:01.372824+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a leading defense and national-security think tank with deep expertise in defense policy, technology governance, and strategic competition \u2014 core to your foreign and defense policy goals.",
+        "Entry-level coordinator roles at CNAS offer direct exposure to policy research, congressional engagement, and defense-sector networks that are invaluable for a future legislative or cabinet-advisory career.",
+        "Think-tank experience builds credibility and policy chops early; CNAS specifically works on tech-in-defense and emerging-tech governance, aligning with your dual interest in tech policy and materials-science infrastructure."
+      ],
+      "weaknesses": [
+        "Project Coordinator is typically an administrative support role with limited direct policy input; you may spend significant time on logistics rather than substantive research or writing.",
+        "No description provided, so exact responsibilities are unclear \u2014 it could be a high-leverage research-support role or a back-office function; clarification needed before investing heavily.",
+        "As a rising sophomore, you'll be competing against juniors and seniors, and CNAS may prefer more experienced candidates for even entry-level positions."
+      ],
+      "fit_with_plans": "CNAS is a natural stepping stone toward congressional and cabinet-level policymaking in defense and technology. A coordinator role there puts you in a policy-fluent environment, builds your network in national-security circles, and deepens your expertise in areas you're already targeting for the long term.",
+      "difficulty": "Moderately competitive; CNAS receives strong applications, but as a rising sophomore at UVA with a stellar GPA and clear national-security focus, you are a credible candidate \u2014 especially if you can articulate why defense policy and CNAS specifically matter to your goals.",
+      "approach": "Request a full job description immediately to assess actual responsibilities and upside. If the role offers policy research support or congressional-liaison exposure, apply directly and in your cover letter connect CNAS's work on defense innovation and emerging tech to your materials-science and foreign-policy interests. Network through UVA alumni at CNAS or adjacent think tanks to strengthen your application."
     }
   ]
 }
