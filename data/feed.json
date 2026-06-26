@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-25T15:44:16.969602+00:00",
-  "count": 11,
+  "generated_at": "2026-06-26T15:27:57.919163+00:00",
+  "count": 12,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -242,6 +242,33 @@
       "fit_with_plans": "A CNAS internship directly advances your legislative-and-executive-branch policymaking goals by exposing you to how leading defense think tanks shape U.S. foreign policy, particularly at the intersection of geopolitics and technology. This aligns with your science-and-technology diplomacy focus.",
       "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong undergraduates and early-career professionals, so you'll need to demonstrate genuine engagement with U.S.-India relations and defense policy in your application.",
       "approach": "Contact CNAS's career team to clarify the role scope and learning objectives. Prepare a brief statement linking India's role in semiconductor supply chains, defense partnerships, or tech standards to your broader interest in tech governance and national security. If you have any prior coursework or projects on great-power competition or defense policy, highlight those."
+    },
+    {
+      "id": "web:https://www.cnas.org/research/middle-east-security/constructing-regional-partnerships-and-seizing-emerging-opportunities",
+      "title": "Constructing Regional Partnerships and Seizing Emerging Opportunities",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/research/middle-east-security/constructing-regional-partnerships-and-seizing-emerging-opportunities",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-06-26T15:26:52.396664+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier think tank on defense, national security, and technology strategy\u2014directly aligned with your core foreign and defense policy interests",
+        "As a rising sophomore, an internship here offers direct exposure to policy research and influencing conversations on tech-in-governance and emerging technologies",
+        "The role title suggests partnership-building and strategy work, which maps onto both your policy ambitions and your entrepreneurial interest in navigating federal funding/contracting ecosystems"
+      ],
+      "weaknesses": [
+        "No detailed job description provided, so it's unclear whether the role is research-focused, operations-heavy, or suited to a sophomore's skill level",
+        "CNAS internships are competitive; landing one as a rising sophomore will require strong networking or a referral",
+        "The vague title doesn't confirm whether this touches materials science, energy policy, or other specialty domains you're targeting"
+      ],
+      "fit_with_plans": "A CNAS internship positions you as a serious policy-track candidate and builds credibility for either legislative work or a cabinet-advisory role. It also exposes you to how defense and tech-policy institutions operate, valuable for any of your three paths.",
+      "difficulty": "Moderately competitive for a sophomore. CNAS attracts strong applicants nationwide, but your 3.91 GPA, Batten track, and clear foreign/defense focus give you a solid platform; a direct referral or strong cover letter connecting your materials-science policy interests to CNAS's work would help.",
+      "approach": "Contact CNAS directly or reach out to UVA alumni working there to understand what this specific role entails. Tailor your pitch around tech-governance and emerging opportunities in defense/S&T policy. If materials science or energy policy appears in their recent publications, reference it explicitly."
     },
     {
       "id": "web:https://www.cnas.org/careers/project-coordinator",
