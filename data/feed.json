@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-30T15:36:18.243413+00:00",
-  "count": 12,
+  "generated_at": "2026-07-01T15:48:49.618122+00:00",
+  "count": 13,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -269,6 +269,33 @@
       "fit_with_plans": "A CNAS internship positions you as a serious policy-track candidate and builds credibility for either legislative work or a cabinet-advisory role. It also exposes you to how defense and tech-policy institutions operate, valuable for any of your three paths.",
       "difficulty": "Moderately competitive for a sophomore. CNAS attracts strong applicants nationwide, but your 3.91 GPA, Batten track, and clear foreign/defense focus give you a solid platform; a direct referral or strong cover letter connecting your materials-science policy interests to CNAS's work would help.",
       "approach": "Contact CNAS directly or reach out to UVA alumni working there to understand what this specific role entails. Tailor your pitch around tech-governance and emerging opportunities in defense/S&T policy. If materials science or energy policy appears in their recent publications, reference it explicitly."
+    },
+    {
+      "id": "web:https://www.cnas.org/people?group=visting-fellow",
+      "title": "Senior Military Fellows",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/people?group=visting-fellow",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-07-01T15:47:22.746978+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national security think tank with deep expertise in military strategy, technology policy, and great-power competition\u2014directly aligned with your foreign and defense policy focus",
+        "Fellows roles offer hands-on policy research and writing that build credibility for future congressional or cabinet-advisory work",
+        "Strong network of defense officials, military leaders, and policymakers creates direct pipelines into government roles"
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you'll be competing against graduate students and more-experienced undergraduates; 'Senior' in the title suggests this may target more advanced candidates",
+        "Think tank work, while prestigious, is not direct government service\u2014it's a stepping stone, not the legislative role itself",
+        "No description provided makes it hard to confirm whether this supports your materials-science-specific policy angle or focuses more broadly on defense"
+      ],
+      "fit_with_plans": "This is a strong intermediate step toward your legislative and cabinet-advisory goals. CNAS produces the research and policy briefs that shape congressional debate and executive-branch decision-making on foreign and defense policy, giving you real exposure to how policymaking works and building your resume for future Hill or agency roles.",
+      "difficulty": "Moderately competitive for a sophomore. CNAS receives many applicants; you'll need strong writing samples, demonstrated interest in defense/security, and ideally a referral or prior policy exposure to stand out.",
+      "approach": "Apply with a tailored cover letter that connects your interest in tech-defense intersections (dual-use research, national labs, procurement reform) to CNAS's current research agenda. Highlight your Batten track and any relevant coursework or personal projects. If possible, reach out to a CNAS fellow or Virginia-based mentor for an internal introduction before submitting."
     },
     {
       "id": "web:https://www.cnas.org/careers/project-coordinator",
