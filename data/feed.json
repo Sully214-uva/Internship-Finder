@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T14:58:26.750340+00:00",
-  "count": 13,
+  "generated_at": "2026-07-16T15:08:37.658029+00:00",
+  "count": 14,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -136,6 +136,32 @@
       "fit_with_plans": "CNAS aligns perfectly with your long-term policymaking goal and your interest in defense, technology, and foreign policy integration. It's a springboard toward NSC, State Department, or defense-focused congressional advisory work.",
       "difficulty": "Moderately competitive for a sophomore; CNAS is prestigious and selective, but your strong GPA, Foreign Affairs BA focus, and clear articulation of interest in national security + tech policy should make you a credible candidate if you can speak to why Nye's work resonates with you.",
       "approach": "Apply directly and in your cover letter, connect Nye's work on leadership and great-power competition to your interest in tech-enabled defense strategy. Mention one or two recent CNAS papers on China, defense tech, or S&T policy that align with your goals. Request to speak with current or past interns about the program's focus."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/research-assistant-research-associate-technology-and-national-security-program",
+      "title": "Research Assistant / Research Associate, Technology and National Security Program",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/research-assistant-research-associate-technology-and-national-security-program",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-07-16T15:07:08.652946+00:00",
+      "relevant": true,
+      "relevance_score": 82,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "Direct alignment with three of your core interest areas: national security, technology policy, and defense strategy",
+        "CNAS is a premier Beltway think tank with deep connections to DoD, intelligence agencies, and Capitol Hill\u2014ideal pipeline for your legislative/cabinet-advisory ambitions",
+        "Research assistant roles at CNAS offer exposure to defense procurement, emerging-tech governance, and policy briefs that feed into congressional testimony and executive decision-making"
+      ],
+      "weaknesses": [
+        "No description provided, so unclear if the specific project touches materials science or your startup-relevant expertise domains",
+        "Think-tank roles, while prestigious, are less direct than legislative staff positions for building Hill relationships early on"
+      ],
+      "fit_with_plans": "This role sits squarely in your policy/government pathway and builds the research and Beltway credibility you'll need for either congressional work or a future cabinet-advisory position. It also gives you deep familiarity with how defense and tech policy actually gets made.",
+      "difficulty": "Moderately competitive for a rising sophomore, but your GPA, UVA pedigree, and demonstrated interest in this space are strong. CNAS actively hires undergraduates and values early engagement; your 5-year MPP track is a plus.",
+      "approach": "Reach out directly to CNAS's HR or the Technology and National Security Program director with a brief note tying your Foreign Affairs major, Batten track, and specific interest in tech-defense policy intersections to the role. Ask if the posting has a project focus (e.g., AI governance, industrial base, supply chains) so you can tailor your pitch. Apply promptly\u2014think-tank internship cycles move fast."
     },
     {
       "id": "web:https://www.cnas.org/people?group=joseph-s-nye",
