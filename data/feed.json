@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T15:08:37.658029+00:00",
-  "count": 14,
+  "generated_at": "2026-07-17T14:48:33.964531+00:00",
+  "count": 15,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -162,6 +162,32 @@
       "fit_with_plans": "This role sits squarely in your policy/government pathway and builds the research and Beltway credibility you'll need for either congressional work or a future cabinet-advisory position. It also gives you deep familiarity with how defense and tech policy actually gets made.",
       "difficulty": "Moderately competitive for a rising sophomore, but your GPA, UVA pedigree, and demonstrated interest in this space are strong. CNAS actively hires undergraduates and values early engagement; your 5-year MPP track is a plus.",
       "approach": "Reach out directly to CNAS's HR or the Technology and National Security Program director with a brief note tying your Foreign Affairs major, Batten track, and specific interest in tech-defense policy intersections to the role. Ask if the posting has a project focus (e.g., AI governance, industrial base, supply chains) so you can tailor your pitch. Apply promptly\u2014think-tank internship cycles move fast."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/research-assistant-research-associate-defense-program",
+      "title": "Research Assistant / Research Associate, Defense Program",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/research-assistant-research-associate-defense-program",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-07-17T14:47:36.163960+00:00",
+      "relevant": true,
+      "relevance_score": 82,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier think tank with deep expertise in defense policy, strategy, and emerging technology\u2014a direct match for your foreign policy and defense focus.",
+        "Research assistant roles at CNAS typically offer mentorship from leading defense intellectuals and exposure to real policy conversations at the Hill and DoD.",
+        "Position aligns with your interest in both defense procurement and technology governance, two of CNAS's core research areas."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competition from juniors and seniors with more research experience; CNAS typically prefers candidates with prior policy or research exposure.",
+        "No description provided makes it hard to assess whether the specific program focuses on your materials-science or tech-diplomacy angles versus traditional strategy work."
+      ],
+      "fit_with_plans": "This role builds direct experience in defense and national security policy research, which is foundational for your legislative/cabinet-advisory ambitions. It also strengthens your credibility for future government or think-tank roles.",
+      "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong applicants, but your GPA, early policy interest, and geographic proximity to DC are assets. Apply if you can demonstrate genuine engagement with defense-tech policy.",
+      "approach": "Contact CNAS directly to clarify whether the Defense Program includes technology policy, materials-science research, or science-and-tech diplomacy angles. Tailor your cover letter to specific recent CNAS publications or experts whose work excites you. Emphasize your dual-track degree, materials-science startup thinking, and intellectual curiosity about the policy side\u2014not just resume-building."
     },
     {
       "id": "web:https://www.cnas.org/people?group=joseph-s-nye",
