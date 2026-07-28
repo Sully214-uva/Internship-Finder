@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T15:47:19.635121+00:00",
-  "count": 18,
+  "generated_at": "2026-07-28T15:25:17.759818+00:00",
+  "count": 17,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -402,33 +402,6 @@
       "fit_with_plans": "This is a strong intermediate step toward your legislative and cabinet-advisory goals. CNAS produces the research and policy briefs that shape congressional debate and executive-branch decision-making on foreign and defense policy, giving you real exposure to how policymaking works and building your resume for future Hill or agency roles.",
       "difficulty": "Moderately competitive for a sophomore. CNAS receives many applicants; you'll need strong writing samples, demonstrated interest in defense/security, and ideally a referral or prior policy exposure to stand out.",
       "approach": "Apply with a tailored cover letter that connects your interest in tech-defense intersections (dual-use research, national labs, procurement reform) to CNAS's current research agenda. Highlight your Batten track and any relevant coursework or personal projects. If possible, reach out to a CNAS fellow or Virginia-based mentor for an internal introduction before submitting."
-    },
-    {
-      "id": "web:https://www.cnas.org/visiting-fellows/senior-military-fellows-program",
-      "title": "Senior Military Fellows Program",
-      "org": "CNAS \u2014 careers",
-      "location": "",
-      "url": "https://www.cnas.org/visiting-fellows/senior-military-fellows-program",
-      "summary": "",
-      "source": "CNAS \u2014 careers",
-      "first_seen": "2026-07-24T14:59:49.069969+00:00",
-      "relevant": true,
-      "relevance_score": 72,
-      "category": "think tank",
-      "fit_tier": "strong",
-      "strengths": [
-        "CNAS is a top-tier defense and national security think tank with deep expertise in defense policy, strategy, and technology\u2014core to your foreign and defense policy goals.",
-        "A fellowship at CNAS builds credibility and networks in the defense and security policy community, directly supporting a path toward legislative or cabinet-advisory roles.",
-        "Think tanks offer policy research and writing experience that translates well to both government and entrepreneurial ventures in defense/tech sectors."
-      ],
-      "weaknesses": [
-        "As a rising sophomore, you may lack the professional experience or depth typically expected for a 'Senior' fellowship\u2014most such programs recruit mid-career professionals or recent graduates.",
-        "Fellowship programs are often time-limited and non-renewable, so they may not provide the sustained career trajectory you need before pivoting to grad school or government roles.",
-        "CNAS fellows typically do not hold security clearances or work on classified materials, so exposure to the most sensitive defense policy work may be limited."
-      ],
-      "fit_with_plans": "A CNAS fellowship aligns strongly with your near-term goal of building expertise and networks in defense policy and security. It would complement your Foreign Affairs degree and position you well for a future Capitol Hill role or for applying to Batten with demonstrated policy research chops.",
-      "difficulty": "Very competitive; CNAS typically recruits experienced professionals or recent graduates, not rising sophomores. You would need exceptional credentials, prior policy internships, and a compelling research proposal to be considered.",
-      "approach": "Apply if CNAS opens a junior or undergraduate fellowship track\u2014otherwise, use CNAS as a longer-term target for post-junior-year or post-Batten entry. In the meantime, build relevant experience through congressional internships or policy research roles on defense/tech topics, then revisit CNAS for a fellowship after your junior year or after your MPP begins."
     },
     {
       "id": "web:https://www.cnas.org/careers/project-coordinator",
