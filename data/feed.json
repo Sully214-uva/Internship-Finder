@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T14:15:17.281958+00:00",
-  "count": 17,
+  "generated_at": "2026-08-08T13:49:59.155650+00:00",
+  "count": 16,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -429,32 +429,6 @@
       "fit_with_plans": "CNAS is a natural stepping stone toward congressional and cabinet-level policymaking in defense and technology. A coordinator role there puts you in a policy-fluent environment, builds your network in national-security circles, and deepens your expertise in areas you're already targeting for the long term.",
       "difficulty": "Moderately competitive; CNAS receives strong applications, but as a rising sophomore at UVA with a stellar GPA and clear national-security focus, you are a credible candidate \u2014 especially if you can articulate why defense policy and CNAS specifically matter to your goals.",
       "approach": "Request a full job description immediately to assess actual responsibilities and upside. If the role offers policy research support or congressional-liaison exposure, apply directly and in your cover letter connect CNAS's work on defense innovation and emerging tech to your materials-science and foreign-policy interests. Network through UVA alumni at CNAS or adjacent think tanks to strengthen your application."
-    },
-    {
-      "id": "web:https://www.cnas.org/careers/research-assistant-indo-pacific-security-program",
-      "title": "Research Assistant/Associate, Indo-Pacific Security Program",
-      "org": "CNAS \u2014 careers",
-      "location": "",
-      "url": "https://www.cnas.org/careers/research-assistant-indo-pacific-security-program",
-      "summary": "",
-      "source": "CNAS \u2014 careers",
-      "first_seen": "2026-06-23T15:55:10.811449+00:00",
-      "relevant": true,
-      "relevance_score": 72,
-      "category": "think tank",
-      "fit_tier": "strong",
-      "strengths": [
-        "CNAS is a top-tier defense and national-security think tank with deep expertise in foreign policy and technology governance\u2014a direct pipeline into your target career path",
-        "The Indo-Pacific focus aligns with current U.S. strategic priorities and will build expertise in a critical theater for defense-policy work",
-        "Think-tank research experience strengthens your credentials for Hill staff roles, cabinet-advisory positions, and future graduate-school applications"
-      ],
-      "weaknesses": [
-        "As a rising sophomore, you may lack the policy-research experience or technical depth that CNAS typically seeks in research associates; this could be a stretch depending on their hiring bar",
-        "The role description is minimal, so unclear whether it involves the tech-governance or materials-science angle that particularly excites you"
-      ],
-      "fit_with_plans": "A CNAS fellowship or RA role is a classic on-ramp to legislative and cabinet-advisory work in foreign and defense policy. It directly serves your policymaking goal and builds the credibility needed for Hill placement or State/DoD appointments.",
-      "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong candidates, but they do hire undergraduates for research roles. Your GPA and foreign-affairs focus help, but you'll need to signal serious policy knowledge and writing ability.",
-      "approach": "Reach out directly to CNAS's director of the Indo-Pacific Security Program or HR with a brief note on your Foreign Affairs major, Batten track, and specific interest in tech-governance dimensions of Indo-Pacific competition. Offer a writing sample or brief policy memo on a tech-China angle to stand out. If no RA slot, ask about summer fellowship pathways."
     }
   ]
 }
