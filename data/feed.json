@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T14:22:24.464253+00:00",
-  "count": 16,
+  "generated_at": "2026-08-11T14:21:51.141344+00:00",
+  "count": 15,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -402,33 +402,6 @@
       "fit_with_plans": "This is a strong intermediate step toward your legislative and cabinet-advisory goals. CNAS produces the research and policy briefs that shape congressional debate and executive-branch decision-making on foreign and defense policy, giving you real exposure to how policymaking works and building your resume for future Hill or agency roles.",
       "difficulty": "Moderately competitive for a sophomore. CNAS receives many applicants; you'll need strong writing samples, demonstrated interest in defense/security, and ideally a referral or prior policy exposure to stand out.",
       "approach": "Apply with a tailored cover letter that connects your interest in tech-defense intersections (dual-use research, national labs, procurement reform) to CNAS's current research agenda. Highlight your Batten track and any relevant coursework or personal projects. If possible, reach out to a CNAS fellow or Virginia-based mentor for an internal introduction before submitting."
-    },
-    {
-      "id": "web:https://www.cnas.org/careers/project-coordinator",
-      "title": "Project Coordinator",
-      "org": "CNAS \u2014 careers",
-      "location": "",
-      "url": "https://www.cnas.org/careers/project-coordinator",
-      "summary": "",
-      "source": "CNAS \u2014 careers",
-      "first_seen": "2026-06-18T16:38:01.372824+00:00",
-      "relevant": true,
-      "relevance_score": 72,
-      "category": "think tank",
-      "fit_tier": "strong",
-      "strengths": [
-        "CNAS is a leading defense and national-security think tank with deep expertise in defense policy, technology governance, and strategic competition \u2014 core to your foreign and defense policy goals.",
-        "Entry-level coordinator roles at CNAS offer direct exposure to policy research, congressional engagement, and defense-sector networks that are invaluable for a future legislative or cabinet-advisory career.",
-        "Think-tank experience builds credibility and policy chops early; CNAS specifically works on tech-in-defense and emerging-tech governance, aligning with your dual interest in tech policy and materials-science infrastructure."
-      ],
-      "weaknesses": [
-        "Project Coordinator is typically an administrative support role with limited direct policy input; you may spend significant time on logistics rather than substantive research or writing.",
-        "No description provided, so exact responsibilities are unclear \u2014 it could be a high-leverage research-support role or a back-office function; clarification needed before investing heavily.",
-        "As a rising sophomore, you'll be competing against juniors and seniors, and CNAS may prefer more experienced candidates for even entry-level positions."
-      ],
-      "fit_with_plans": "CNAS is a natural stepping stone toward congressional and cabinet-level policymaking in defense and technology. A coordinator role there puts you in a policy-fluent environment, builds your network in national-security circles, and deepens your expertise in areas you're already targeting for the long term.",
-      "difficulty": "Moderately competitive; CNAS receives strong applications, but as a rising sophomore at UVA with a stellar GPA and clear national-security focus, you are a credible candidate \u2014 especially if you can articulate why defense policy and CNAS specifically matter to your goals.",
-      "approach": "Request a full job description immediately to assess actual responsibilities and upside. If the role offers policy research support or congressional-liaison exposure, apply directly and in your cover letter connect CNAS's work on defense innovation and emerging tech to your materials-science and foreign-policy interests. Network through UVA alumni at CNAS or adjacent think tanks to strengthen your application."
     }
   ]
 }
