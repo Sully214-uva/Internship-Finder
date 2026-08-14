@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T14:24:18.040707+00:00",
-  "count": 15,
+  "generated_at": "2026-08-14T14:17:45.203114+00:00",
+  "count": 16,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -136,6 +136,33 @@
       "fit_with_plans": "CNAS aligns perfectly with your long-term policymaking goal and your interest in defense, technology, and foreign policy integration. It's a springboard toward NSC, State Department, or defense-focused congressional advisory work.",
       "difficulty": "Moderately competitive for a sophomore; CNAS is prestigious and selective, but your strong GPA, Foreign Affairs BA focus, and clear articulation of interest in national security + tech policy should make you a credible candidate if you can speak to why Nye's work resonates with you.",
       "approach": "Apply directly and in your cover letter, connect Nye's work on leadership and great-power competition to your interest in tech-enabled defense strategy. Mention one or two recent CNAS papers on China, defense tech, or S&T policy that align with your goals. Request to speak with current or past interns about the program's focus."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/research-assistant-associate-technology-and-national-security-program",
+      "title": "Research Assistant / Research Associate, Technology and National Security Program",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/research-assistant-associate-technology-and-national-security-program",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-08-14T14:17:07.872146+00:00",
+      "relevant": true,
+      "relevance_score": 88,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "CNAS is a premier defense and national security think tank with deep expertise in technology policy and innovation \u2014 directly aligned with your core interest in tech + defense + foreign policy",
+        "Research assistant roles at CNAS typically offer exposure to cutting-edge work on emerging technologies (AI, advanced manufacturing, critical supply chains), congressional testimony, and policy briefs for senior policymakers \u2014 excellent scaffolding for your MPP track and long-term legislative/cabinet goals",
+        "CNAS has strong Hill relationships and host internships that often lead to congressional fellowship placements or federal roles, giving you networking access in your target domain"
+      ],
+      "weaknesses": [
+        "As a sophomore, you may face competition from juniors/seniors with more policy research experience; CNAS sometimes prioritizes candidates with prior internship/research background",
+        "No description provided, so exact responsibilities, timing, or clearance requirements are unclear \u2014 you'll need to contact them directly to confirm the role suits your schedule and doesn't require an existing TS/SCI",
+        "Think tank roles can feel slower-paced or less hands-on than direct government work, though they're excellent for learning policy depth."
+      ],
+      "fit_with_plans": "This aligns perfectly with your path toward policymaking in defense/foreign policy and tech governance. A CNAS internship builds credibility and relationships for later Hill or cabinet advisory roles, and the tech + national security focus directly supports your materials-science policy and entrepreneurship ambitions.",
+      "difficulty": "Moderately competitive for a sophomore. CNAS attracts strong applicants, but they do hire early-career researchers; your 3.91 GPA, Batten dual-degree track, and clarity on tech + national security give you a real edge if you demonstrate prior policy interest (coursework, relevant reading, or a clear narrative).",
+      "approach": "Contact CNAS directly to clarify the role, timeline, and any eligibility requirements. Craft a brief cover letter tying your Foreign Affairs major, your interest in tech-national security, and your materials-science entrepreneurial angle to their mission. If possible, reference a specific CNAS report or expert to show genuine familiarity. Apply early if the posting opens in fall; sophomore research roles often fill quickly."
     },
     {
       "id": "web:https://www.cnas.org/careers/research-assistant-research-associate-technology-and-national-security-program",
