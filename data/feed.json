@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T13:43:14.241820+00:00",
-  "count": 16,
+  "generated_at": "2026-08-18T13:47:41.555312+00:00",
+  "count": 17,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -348,6 +348,33 @@
       "fit_with_plans": "This fellowship positions you perfectly for your legislative and cabinet-advisory aspirations by building your national-security and tech-policy credibility early. It's a natural stepping stone toward DOD, State, or defense-focused congressional roles.",
       "difficulty": "Very competitive; CNAS attracts top undergraduates nationally and likely expects demonstrated interest in security policy or prior relevant internship/project work.",
       "approach": "Apply with a crisp statement on why defense procurement and tech governance matter to U.S. competitiveness. If possible, highlight any coursework, writing, or side projects linking technology and security. Reach out to CNAS program leadership beforehand to ask about fit and strengthen your narrative around long-term policy ambitions."
+    },
+    {
+      "id": "web:https://www.cnas.org/visiting-fellows",
+      "title": "Visiting Fellows",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/visiting-fellows",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-08-18T13:47:07.974336+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national security think tank with deep expertise in defense policy, technology governance, and great-power competition\u2014directly aligned with your foreign and defense policy goals.",
+        "Visiting Fellow roles offer immersive policy research and writing experience that builds credibility for future congressional or cabinet-advisory work.",
+        "CNAS has strong relationships with DOD, State Department, and Congress, giving you visibility into how policy is actually made and contracted."
+      ],
+      "weaknesses": [
+        "Visiting Fellow positions are often short-term and may not offer mentorship depth or clear career sponsorship that a full staff role would.",
+        "As a rising sophomore, you may face stiff competition from older undergrads and graduate students; CNAS typically prioritizes more senior candidates.",
+        "The role description is sparse, so it's unclear if this is paid, what the duration is, or whether it involves substantive independent work or mostly support tasks."
+      ],
+      "fit_with_plans": "This fits your legislative and cabinet-advisory track by giving you credible think-tank experience in defense and tech policy before moving into government. It also supports your entrepreneurial path by building networks and understanding federal contracting and research-funding landscapes.",
+      "difficulty": "Moderate-to-competitive for a rising sophomore; CNAS attracts strong applicants, but your GPA, UVA pedigree, and clear focus on defense tech policy are advantages. Visiting Fellow roles are less selective than full fellowships.",
+      "approach": "Contact CNAS's fellowship director directly (don't rely on the online form alone) and emphasize your 5-year Batten MPP track, your focus on tech-defense policy, and any coursework or projects on national security or materials science. If this is a summer role, apply early. Ask about whether it could span into the academic year or lead to continued engagement."
     },
     {
       "id": "web:https://www.cnas.org/research/indo-pacific-security/the-india-opportunity",
