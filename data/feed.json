@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T22:58:31.964959+00:00",
-  "count": 17,
+  "generated_at": "2026-08-29T17:03:04.589399+00:00",
+  "count": 18,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -429,6 +429,33 @@
       "fit_with_plans": "A CNAS internship positions you as a serious policy-track candidate and builds credibility for either legislative work or a cabinet-advisory role. It also exposes you to how defense and tech-policy institutions operate, valuable for any of your three paths.",
       "difficulty": "Moderately competitive for a sophomore. CNAS attracts strong applicants nationwide, but your 3.91 GPA, Batten track, and clear foreign/defense focus give you a solid platform; a direct referral or strong cover letter connecting your materials-science policy interests to CNAS's work would help.",
       "approach": "Contact CNAS directly or reach out to UVA alumni working there to understand what this specific role entails. Tailor your pitch around tech-governance and emerging opportunities in defense/S&T policy. If materials science or energy policy appears in their recent publications, reference it explicitly."
+    },
+    {
+      "id": "web:https://www.cnas.org/people?group=adjunct-staff",
+      "title": "Adjunct Fellows",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/people?group=adjunct-staff",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-08-29T17:02:43.713564+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national-security think tank directly aligned with your core foreign policy and defense policy interests",
+        "Adjunct fellowships typically offer flexible, research-driven roles that let you contribute to policy work while still in school, fitting your 5-year track timeline",
+        "CNAS has deep expertise at the intersection of defense, technology, and strategy\u2014precisely your sweet spot"
+      ],
+      "weaknesses": [
+        "As an adjunct role at a think tank rather than direct government or legislative work, it's less direct pipeline to your stated long-term cabinet/Hill goals",
+        "Limited visibility on salary, hours, and whether this is paid or unpaid; some think-tank fellowships are selective or competitive for undergraduates",
+        "No mention of materials science or federal contracting focus, which are secondary but real interests of yours"
+      ],
+      "fit_with_plans": "This is a strong stepping stone toward your policy/government and think-tank paths. A CNAS fellowship would deepen your expertise in defense and tech policy, build your network in national-security circles, and position you well for a Hill or agency role post-MPP.",
+      "difficulty": "Moderate-to-competitive for a sophomore; CNAS is prestigious and selective, but adjunct fellowships are often designed to accommodate student schedules and do recruit undergrads with strong records.",
+      "approach": "Apply directly through their careers page with a tailored cover letter highlighting your Batten track, your specific interest in defense-tech policy, and any past research or coursework on those topics. Signal that you're seeking a flexible role compatible with your academic schedule. Reach out to CNAS alumni from UVA if you can find any to understand their experience."
     },
     {
       "id": "web:https://www.cnas.org/people?group=visting-fellow",
