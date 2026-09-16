@@ -1,7 +1,86 @@
 {
-  "generated_at": "2026-09-15T17:35:23.426550+00:00",
-  "count": 15,
+  "generated_at": "2026-09-16T17:34:39.617656+00:00",
+  "count": 18,
   "postings": [
+    {
+      "id": "web:https://www.foreign.senate.gov/about/internships",
+      "title": "Internships",
+      "org": "Senate Foreign Relations Committee \u2014 internships",
+      "location": "",
+      "url": "https://www.foreign.senate.gov/about/internships",
+      "summary": "",
+      "source": "Senate Foreign Relations Committee \u2014 internships",
+      "first_seen": "2026-09-16T17:34:03.959329+00:00",
+      "relevant": true,
+      "relevance_score": 92,
+      "category": "legislative",
+      "fit_tier": "top",
+      "strengths": [
+        "Direct exposure to U.S. foreign policy and diplomacy at the highest legislative level\u2014core to your stated long-term goal of policymaking in foreign and defense policy.",
+        "Placement on SFRC offers unmatched networking access to senior foreign policy staffers, senators, and executive-branch contacts essential for a cabinet-advisory or legislative career path.",
+        "Perfect credential-builder for a Batten MPP applicant and future congressional staffer; SFRC experience is gold-standard in this space."
+      ],
+      "weaknesses": [
+        "Competitive internship with limited spots; as a rising sophomore, you're earlier-stage than typical applicants, though strong GPA and targeted interest help.",
+        "No explicit tech-policy or materials-science focus listed in the committee's purview (though you could pitch a portfolio around S&T diplomacy, export control, or critical minerals if they exist in your scope)."
+      ],
+      "fit_with_plans": "A Senate Foreign Relations Committee internship directly accelerates path #1 (policy/government) and builds the congressional credentials and networks you'll need for legislative or cabinet roles. It also demonstrates serious commitment to foreign policy and creates optionality for an elected-office run later.",
+      "difficulty": "Highly competitive; SFRC draws top-tier applicants nationwide. Your sophomore status is a slight disadvantage, but your GPA, clear focus, UVA ties, and Batten track make you a credible candidate if you apply early and craft a sharp pitch around tech diplomacy or critical-technology foreign policy.",
+      "approach": "Apply immediately when the cycle opens (typically fall for spring/summer). In your cover letter, connect your materials-science policy interest to SFRC's emerging-tech diplomacy, export controls, or critical-minerals supply-chain work. Emphasize the Batten MPP path and your intent to build a legislative/cabinet-advisory career. Leverage UVA alumni in the Senate if possible; ask your Foreign Affairs advisor for introductions."
+    },
+    {
+      "id": "web:https://www.foreign.senate.gov/download/minority-internship-form",
+      "title": "here",
+      "org": "Senate Foreign Relations Committee \u2014 internships",
+      "location": "",
+      "url": "https://www.foreign.senate.gov/download/minority-internship-form",
+      "summary": "",
+      "source": "Senate Foreign Relations Committee \u2014 internships",
+      "first_seen": "2026-09-16T17:34:03.959329+00:00",
+      "relevant": true,
+      "relevance_score": 92,
+      "category": "legislative",
+      "fit_tier": "top",
+      "strengths": [
+        "Direct access to U.S. foreign policy and defense policy work at the legislative level, which is your core long-term goal.",
+        "Senate committee internships provide insider knowledge of how foreign affairs legislation is crafted and how tech/defense interests are advocated.",
+        "Strong credential for a future cabinet advisory or elected-office path, and a natural pipeline into policy roles."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competitive pressure from juniors and seniors; SFRC internships are highly sought.",
+        "No guarantee of materials-science or tech-governance focus within the committee unless you land the right staffer or legislative director.",
+        "Limited equity-stake or entrepreneurial exposure; this is pure policy/government, not the tech startup path."
+      ],
+      "fit_with_plans": "This directly aligns with your stated preference for congressional work and legislative policymaking in foreign and defense policy. A Senate Foreign Relations Committee internship is a textbook entry point into the cabinet-advisory and elected-office lanes you're considering.",
+      "difficulty": "Moderately competitive for a sophomore; SFRC is prestigious and attracts strong applicants from across the country, but your GPA, University of Virginia location, and Foreign Affairs major are all credible assets.",
+      "approach": "Contact the SFRC's internship coordinator directly (find them via Senate.gov or the committee's website) to clarify timing and requirements, then emphasize your Batten track, your focus on tech-in-foreign-policy, and any materials-science policy angle you can articulate. If they have a tech or defense-focused legislative director, ask to be matched there. Apply early in the cycle."
+    },
+    {
+      "id": "web:https://oampluspublic.senate.gov/public/login/43ca311d-c4d5-4593-8783-fafad4342f73",
+      "title": "apply for an internship",
+      "org": "Senate Foreign Relations Committee \u2014 internships",
+      "location": "",
+      "url": "https://oampluspublic.senate.gov/public/login/43ca311d-c4d5-4593-8783-fafad4342f73",
+      "summary": "",
+      "source": "Senate Foreign Relations Committee \u2014 internships",
+      "first_seen": "2026-09-16T17:34:03.959329+00:00",
+      "relevant": true,
+      "relevance_score": 92,
+      "category": "legislative",
+      "fit_tier": "top",
+      "strengths": [
+        "Direct exposure to U.S. foreign policy formulation at the highest legislative level, perfectly aligned with your stated goal of legislative/cabinet-advisory roles in foreign and defense policy.",
+        "Built-in network and credential value for long-term policymaking ambitions\u2014SFRC internships are among the most prestigious on Capitol Hill and signal serious preparation for senior roles.",
+        "Opportunity to observe and participate in tech-policy aspects of foreign relations (export controls, tech competition with China, etc.), bridging your tech-governance and foreign policy interests."
+      ],
+      "weaknesses": [
+        "Limited direct exposure to defense procurement, government contracting, or materials-science policy\u2014SFRC is diplomatic/strategic rather than economic/industrial policy focused.",
+        "As a rising sophomore, you may face competition from juniors and seniors, and securing a spot is highly selective."
+      ],
+      "fit_with_plans": "This directly serves your primary path (policy/government, legislative track) and your core goal of foreign and defense policy expertise. It positions you for future Hill staff roles, think tanks, or State/Defense Department positions.",
+      "difficulty": "Highly competitive; SFRC interns are typically juniors/seniors with strong Hill connections or unusual credentials. As a rising sophomore, you'll need exceptional materials and ideally a referral from a Virginia or Texas Senator's office or someone on SFRC staff.",
+      "approach": "Contact the SFRC internship coordinator directly to confirm sophomore eligibility; simultaneously, reach out to your Virginia Senators' offices (Warner, Kaine) to ask for an introduction or recommendation to SFRC. Emphasize your Batten dual-degree track, GPA, and focused interest in tech-diplomacy and defense policy. Apply early in the cycle (fall for spring, spring for summer)."
+    },
     {
       "id": "web:https://www.cnas.org/next-generation-programs/nextgeneration",
       "title": "The Shawn Brimley Next Generation National Security Leaders Fellowship",
