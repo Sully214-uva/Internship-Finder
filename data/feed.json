@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T18:19:34.172217+00:00",
-  "count": 16,
+  "generated_at": "2026-11-02T22:15:27.505082+00:00",
+  "count": 18,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -324,6 +324,60 @@
       "fit_with_plans": "This fits your legislative and cabinet-advisory track by giving you credible think-tank experience in defense and tech policy before moving into government. It also supports your entrepreneurial path by building networks and understanding federal contracting and research-funding landscapes.",
       "difficulty": "Moderate-to-competitive for a rising sophomore; CNAS attracts strong applicants, but your GPA, UVA pedigree, and clear focus on defense tech policy are advantages. Visiting Fellow roles are less selective than full fellowships.",
       "approach": "Contact CNAS's fellowship director directly (don't rely on the online form alone) and emphasize your 5-year Batten MPP track, your focus on tech-defense policy, and any coursework or projects on national security or materials science. If this is a summer role, apply early. Ask about whether it could span into the academic year or lead to continued engagement."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/joseph-s-nye-jr-research-intern-indo-pacific-secrurity",
+      "title": "Joseph S. Nye, Jr. Research Intern, Indo-Pacific Secrurity",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/joseph-s-nye-jr-research-intern-indo-pacific-secrurity",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-11-02T22:14:59.855881+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a premier defense and national-security think tank with deep expertise in great-power competition and technology's role in strategy\u2014directly aligned with your foreign policy + defense focus.",
+        "A Nye internship puts you in proximity to world-class scholars on U.S. strategy, great-power dynamics, and the tech/defense nexus; strong credential for future Hill or cabinet work.",
+        "Think-tank research experience builds the policy analysis and writing skills needed for legislative or advisory roles, and demonstrates serious commitment to the field."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face stiff competition from juniors and seniors; your lack of prior policy internships could be a disadvantage unless you present strong writing samples.",
+        "Think-tank work is research-focused rather than direct legislative or government-contracting exposure\u2014less direct path to your appropriations or procurement interests than a Hill or agency placement.",
+        "No mention of materials science or tech entrepreneurship angle; the role likely emphasizes traditional foreign/defense strategy over the tech-governance and materials-policy niche you're building."
+      ],
+      "fit_with_plans": "This role sits squarely in your policy/government and national-security path, giving you rigorous exposure to Indo-Pacific strategy and great-power competition. It's a stepping stone to Hill roles or cabinet advisory positions, though it's more traditional geopolitics than tech-governance or materials policy.",
+      "difficulty": "Moderate-to-competitive for a sophomore. CNAS attracts strong applicants nationwide; you'll need polished writing, clear articulation of interest in Nye's work, and ideally a recommender or prior policy work to stand out.",
+      "approach": "Research Nye's recent publications on technology, strategy, and U.S. foreign policy; tailor your application to show you've engaged with his thinking. Emphasize your Foreign Affairs major, your long-term interest in tech-informed defense strategy, and any writing or research you've done. If you have a campus recommender who knows your policy ambitions, use them. Follow up with CNAS program staff if possible."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/joseph-s-nye-jr-intern-development",
+      "title": "Joseph S. Nye, Jr. Intern, Development",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/joseph-s-nye-jr-intern-development",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-11-02T22:14:59.855881+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier think tank with deep expertise in defense, national security, and great-power competition\u2014core to your foreign and defense policy goals",
+        "An internship here provides direct exposure to policy research, think-tank workflow, and the DC policy ecosystem before grad school",
+        "Named after Joseph Nye, a legendary scholar in international relations and strategy; working under that banner signals serious intellectual engagement with your stated interests"
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competition from juniors and seniors with more developed policy research skills and prior internship experience",
+        "Think-tank internships are typically research-focused rather than legislative or government-advisory roles, so less direct exposure to policymaking implementation than congressional or executive-branch positions",
+        "No description provided, so unclear whether the role touches your specific interests (tech governance, materials science, or just general defense/security research)"
+      ],
+      "fit_with_plans": "CNAS is a natural stepping stone toward your long-term goal of legislative or cabinet-advisory policymaking roles. A strong think-tank foundation in defense and national security research will strengthen your candidacy for Hill staff or agency positions post-MPP.",
+      "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong undergraduates nationwide, but your high GPA, Batten acceptance, and demonstrated interest in defense policy make you a credible candidate if you can articulate why this role fits your research agenda.",
+      "approach": "Contact CNAS directly or your UVA career office to request the full job description and clarify whether the role aligns with tech-in-defense or materials-policy research. If it does, lead your application with specific questions about current projects and your existing knowledge of Nye's work on strategic competition. Emphasize your 5-year MPP track and long-term government ambitions."
     },
     {
       "id": "web:https://www.cnas.org/research/indo-pacific-security/the-india-opportunity",
