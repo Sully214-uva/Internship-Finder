@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T22:55:55.121808+00:00",
-  "count": 18,
+  "generated_at": "2026-11-10T20:23:21.423326+00:00",
+  "count": 20,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -325,30 +325,58 @@
       "approach": "Contact CNAS's fellowship director directly (don't rely on the online form alone) and emphasize your 5-year Batten MPP track, your focus on tech-defense policy, and any coursework or projects on national security or materials science. If this is a summer role, apply early. Ask about whether it could span into the academic year or lead to continued engagement."
     },
     {
-      "id": "web:https://www.cnas.org/careers/joseph-s-nye-jr-research-intern-indo-pacific-security",
-      "title": "Joseph S. Nye, Jr. Research Intern, Indo-Pacific Security",
+      "id": "web:https://www.cnas.org/careers/ai-policy-associate-ai-policy-researcher",
+      "title": "AI Policy Associate / AI Policy Researcher, Compute",
       "org": "CNAS \u2014 careers",
       "location": "",
-      "url": "https://www.cnas.org/careers/joseph-s-nye-jr-research-intern-indo-pacific-security",
+      "url": "https://www.cnas.org/careers/ai-policy-associate-ai-policy-researcher",
       "summary": "",
       "source": "CNAS \u2014 careers",
-      "first_seen": "2026-11-09T22:55:37.500264+00:00",
+      "first_seen": "2026-11-10T20:22:22.984286+00:00",
       "relevant": true,
       "relevance_score": 78,
       "category": "think tank",
-      "fit_tier": "top",
+      "fit_tier": "strong",
       "strengths": [
-        "CNAS is a premier think tank on defense, national security, and strategy\u2014perfectly aligned with your foreign policy and defense policy goals",
-        "The Indo-Pacific Security focus sits at the intersection of U.S. foreign policy, defense strategy, and great-power competition, a major geopolitical domain",
-        "Named research internship under Joseph Nye (a legendary figure in international relations and soft power theory) provides high-caliber mentorship and credential-building for future policy roles"
+        "CNAS is a top-tier defense and national security think tank with deep expertise in emerging tech policy\u2014directly aligned with your tech-in-governance focus",
+        "An AI policy role at CNAS builds credible expertise in a domain (compute/AI governance) that sits at the intersection of defense, foreign policy, and technology\u2014core to your long-term policymaking goals",
+        "Think tank research experience is a proven pathway to congressional advisory roles and cabinet positions; it provides policy chops and a track record that makes you competitive for legislative internships or government roles later"
       ],
       "weaknesses": [
-        "As a rising sophomore, you may face stiff competition from juniors and seniors, though your GPA and track record should be competitive",
-        "Think-tank research, while excellent preparation, is not direct legislative or cabinet-advisory experience\u2014a step toward but not the same as your ultimate goal"
+        "As a rising sophomore, you may face stiff competition from juniors and seniors for a research-track role; CNAS typically draws strong applicants",
+        "The posting lacks detail on what 'compute' specifically means and whether it includes materials-science policy or is purely AI/ML infrastructure\u2014could miss your materials-science angle",
+        "Think tank roles are often more research/writing-heavy than the direct legislative or procurement exposure that builds fastest toward your cabinet-advisory goal"
       ],
-      "fit_with_plans": "This role builds your foreign policy and national security expertise while keeping you in the DC policy ecosystem. It's a natural stepping stone toward both your legislative/cabinet-advisory path and your long-term materials-science policy ambitions, as CNAS also works on S&T governance.",
-      "difficulty": "Moderately competitive; CNAS attracts strong applicants, but a 3.91 GPA, clear foreign policy focus, and Batten track give you a credible shot. Apply early and emphasize your specific interest in tech-defense nexus.",
-      "approach": "Craft a tailored cover letter connecting your materials-science interests to Indo-Pacific competition (semiconductor supply chains, critical minerals, rare earths\u2014all live Indo-Pacific issues). Mention Nye's work on soft power and ask how S&T diplomacy plays into the role. Reach out to a UVA alum at CNAS if possible for a warm intro."
+      "fit_with_plans": "This role directly supports your tech-in-governance and national security focus, and think tank experience is a proven stepping stone into congressional and executive-branch policymaking. It also gives you depth in AI policy\u2014a critical tech domain for future defense and foreign policy work.",
+      "difficulty": "Moderately competitive for a sophomore; CNAS receives many applications, but your GPA, Batten track, and clear interest in tech policy differentiate you. Emphasize your materials-science and national security angle in your pitch.",
+      "approach": "Apply with a tailored cover letter that connects your interest in tech governance and defense policy to CNAS's mission. If possible, research current CNAS work on AI and defense, and reference it. Use this role to build policy research skills and network\u2014then lever it toward a congressional internship or DOD/State placement in your junior year."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/ai-policy-associate-ai-policy-researcher-2",
+      "title": "AI Policy Associate / AI Policy Researcher",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/ai-policy-associate-ai-policy-researcher-2",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-11-10T20:22:22.984286+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national security think tank with deep expertise in technology governance and emerging threats\u2014directly aligned with your foreign policy + tech policy + defense focus.",
+        "Researcher roles at CNAS build credibility in the policy space and create direct networks with Capitol Hill, defense officials, and the interagency\u2014essential for your legislative/cabinet-advisory path.",
+        "AI policy is a high-leverage domain where materials-science tech policy and governance intersect; experience here translates directly to your broader tech-in-governance agenda."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competition from juniors/seniors or recent grads, especially for a researcher role that often expects some policy background or research experience.",
+        "Think-tank work is typically advisory rather than decision-making; if your primary goal is *legislative* policymaking (not research/analysis), this is a stepping-stone, not the final destination.",
+        "No description provided, so unclear if this is a full internship, part-time role, or research assistant slot\u2014confirm scope and timing before investing effort."
+      ],
+      "fit_with_plans": "AI policy sits at the intersection of tech governance, national security, and emerging-technology oversight\u2014core to your stated interest in tech-in-governance and defense policy. A researcher role at CNAS would deepen your expertise and build credibility for later Congressional or cabinet roles.",
+      "difficulty": "Moderately competitive for a sophomore; CNAS interns are often juniors or seniors, but strong academics and demonstrated interest in AI/tech policy can overcome this. Having a specific research angle or prior policy-focused coursework helps.",
+      "approach": "Request the full job description and confirm whether this is an internship or research-assistant track. If internship, apply with a tailored cover letter highlighting your interest in AI's intersection with national security and defense procurement\u2014mention any coursework, projects, or reading that shows depth. Reach out to UVA alumni at CNAS on LinkedIn before applying to gain insider insight and a warm referral."
     },
     {
       "id": "web:https://www.cnas.org/careers/joseph-s-nye-jr-intern-development",
@@ -376,6 +404,32 @@
       "fit_with_plans": "CNAS is a natural stepping stone toward your long-term goal of legislative or cabinet-advisory policymaking roles. A strong think-tank foundation in defense and national security research will strengthen your candidacy for Hill staff or agency positions post-MPP.",
       "difficulty": "Moderately competitive for a sophomore; CNAS attracts strong undergraduates nationwide, but your high GPA, Batten acceptance, and demonstrated interest in defense policy make you a credible candidate if you can articulate why this role fits your research agenda.",
       "approach": "Contact CNAS directly or your UVA career office to request the full job description and clarify whether the role aligns with tech-in-defense or materials-policy research. If it does, lead your application with specific questions about current projects and your existing knowledge of Nye's work on strategic competition. Emphasize your 5-year MPP track and long-term government ambitions."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/joseph-s-nye-jr-research-intern-indo-pacific-security",
+      "title": "Joseph S. Nye, Jr. Research Intern, Indo-Pacific Security",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/joseph-s-nye-jr-research-intern-indo-pacific-security",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-11-09T22:55:37.500264+00:00",
+      "relevant": true,
+      "relevance_score": 78,
+      "category": "think tank",
+      "fit_tier": "top",
+      "strengths": [
+        "CNAS is a premier think tank on defense, national security, and strategy\u2014perfectly aligned with your foreign policy and defense policy goals",
+        "The Indo-Pacific Security focus sits at the intersection of U.S. foreign policy, defense strategy, and great-power competition, a major geopolitical domain",
+        "Named research internship under Joseph Nye (a legendary figure in international relations and soft power theory) provides high-caliber mentorship and credential-building for future policy roles"
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face stiff competition from juniors and seniors, though your GPA and track record should be competitive",
+        "Think-tank research, while excellent preparation, is not direct legislative or cabinet-advisory experience\u2014a step toward but not the same as your ultimate goal"
+      ],
+      "fit_with_plans": "This role builds your foreign policy and national security expertise while keeping you in the DC policy ecosystem. It's a natural stepping stone toward both your legislative/cabinet-advisory path and your long-term materials-science policy ambitions, as CNAS also works on S&T governance.",
+      "difficulty": "Moderately competitive; CNAS attracts strong applicants, but a 3.91 GPA, clear foreign policy focus, and Batten track give you a credible shot. Apply early and emphasize your specific interest in tech-defense nexus.",
+      "approach": "Craft a tailored cover letter connecting your materials-science interests to Indo-Pacific competition (semiconductor supply chains, critical minerals, rare earths\u2014all live Indo-Pacific issues). Mention Nye's work on soft power and ask how S&T diplomacy plays into the role. Reach out to a UVA alum at CNAS if possible for a warm intro."
     },
     {
       "id": "web:https://www.cnas.org/research/indo-pacific-security/the-india-opportunity",
