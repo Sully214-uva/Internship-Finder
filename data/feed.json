@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T20:23:21.423326+00:00",
-  "count": 20,
+  "generated_at": "2026-11-11T20:05:46.575249+00:00",
+  "count": 21,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -538,6 +538,33 @@
       "fit_with_plans": "This is a strong intermediate step toward your legislative and cabinet-advisory goals. CNAS produces the research and policy briefs that shape congressional debate and executive-branch decision-making on foreign and defense policy, giving you real exposure to how policymaking works and building your resume for future Hill or agency roles.",
       "difficulty": "Moderately competitive for a sophomore. CNAS receives many applicants; you'll need strong writing samples, demonstrated interest in defense/security, and ideally a referral or prior policy exposure to stand out.",
       "approach": "Apply with a tailored cover letter that connects your interest in tech-defense intersections (dual-use research, national labs, procurement reform) to CNAS's current research agenda. Highlight your Batten track and any relevant coursework or personal projects. If possible, reach out to a CNAS fellow or Virginia-based mentor for an internal introduction before submitting."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/program-associate-program-manager-ai-policy-lab",
+      "title": "Program Associate / Program Manager, AI Policy Lab",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/program-associate-program-manager-ai-policy-lab",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-11-11T20:04:59.881816+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national security think tank with deep expertise in tech policy and emerging technology governance\u2014directly aligned with your core interest in the intersection of technology and defense policy.",
+        "Program Associate roles at think tanks offer fast-track exposure to policy research, congressional testimony preparation, and senior advisor networks that feed directly into legislative and cabinet-advisory career paths.",
+        "AI policy sits at the nexus of your tech-in-governance and national security interests, and CNAS's work on AI defense implications is highly relevant to U.S. foreign and defense competitiveness."
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competition from juniors and seniors; think tank roles often prefer candidates closer to graduation or with prior policy internship experience.",
+        "The posting lacks detail on responsibilities and mentorship structure\u2014you'll need to clarify whether this is research support or higher-impact analytical work before committing.",
+        "A 1-2 year think tank stint delays your ability to move into legislative or cabinet roles; it's a strong launching pad but not a direct pipeline to elected office or entrepreneurship."
+      ],
+      "fit_with_plans": "This role bridges your policy and tech-in-governance goals by positioning you as a rising expert in AI governance and defense\u2014a portfolio that strengthens applications to Hill staff roles, State Department, and DOD policy teams later. It also builds the intellectual credibility needed to eventually advise on materials-science policy and government contracting.",
+      "difficulty": "Moderate for a sophomore; CNAS hires undergraduates but typically prioritizes rising juniors or those with a prior internship. Your GPA and Foreign Affairs major help, but you'll need to demonstrate genuine depth in AI policy or national security.",
+      "approach": "Contact CNAS directly (not just through the careers portal) and ask to speak with the AI Policy Lab director; mention your interest in tech-defense nexus and materials-science policy as differentiators. If you land this, use it to build a network at CNAS and position yourself for a Hill fellowship or State Department internship the following summer."
     }
   ]
 }
