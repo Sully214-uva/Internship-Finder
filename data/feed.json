@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T20:05:46.575249+00:00",
-  "count": 21,
+  "generated_at": "2026-11-12T20:43:34.480135+00:00",
+  "count": 22,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -538,6 +538,32 @@
       "fit_with_plans": "This is a strong intermediate step toward your legislative and cabinet-advisory goals. CNAS produces the research and policy briefs that shape congressional debate and executive-branch decision-making on foreign and defense policy, giving you real exposure to how policymaking works and building your resume for future Hill or agency roles.",
       "difficulty": "Moderately competitive for a sophomore. CNAS receives many applicants; you'll need strong writing samples, demonstrated interest in defense/security, and ideally a referral or prior policy exposure to stand out.",
       "approach": "Apply with a tailored cover letter that connects your interest in tech-defense intersections (dual-use research, national labs, procurement reform) to CNAS's current research agenda. Highlight your Batten track and any relevant coursework or personal projects. If possible, reach out to a CNAS fellow or Virginia-based mentor for an internal introduction before submitting."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/ai-engineer-senior-ai-engineer-ai-policy-lab",
+      "title": "AI Engineer / Senior AI Engineer, AI Policy Lab",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/ai-engineer-senior-ai-engineer-ai-policy-lab",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-11-12T20:42:55.860828+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national security think tank with deep expertise in technology governance and AI policy\u2014directly aligned with your tech-in-governance and defense policy interests",
+        "An AI policy role gives you substantive exposure to how emerging technology intersects with defense and foreign policy at the strategic level, feeding your materials-science policy and tech governance ambitions",
+        "Think tank positions build credibility and networks in policy circles while letting you contribute to research that influences congressional and executive-branch decision-making"
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may lack the technical AI/ML depth or professional experience CNAS typically expects for even junior roles; eligibility and competition will be steep",
+        "An AI engineering title suggests technical execution rather than policy work\u2014clarify whether this is a research engineer role (policy-facing) or pure ML engineering before applying"
+      ],
+      "fit_with_plans": "This bridges your tech-in-governance and defense policy interests perfectly and positions you within the think-tank ecosystem that feeds into cabinet-advisory and legislative roles. Early exposure to AI policy research strengthens your candidacy for higher-stakes government roles post-MPP.",
+      "difficulty": "Moderate-to-high for a sophomore; CNAS is prestigious and competitive, and an engineer title may imply technical qualifications that require prior internships or strong portfolio work.",
+      "approach": "Reach out to CNAS directly to clarify the role's policy vs. technical balance and any sophomore eligibility. If it's research-focused, emphasize your Batten track, foreign policy ambitions, and any relevant coursework or startup thinking on tech governance. If it's pure ML engineering, consider it a stretch unless you have solid technical chops to demonstrate."
     },
     {
       "id": "web:https://www.cnas.org/careers/program-associate-program-manager-ai-policy-lab",
