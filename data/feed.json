@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T20:43:34.480135+00:00",
-  "count": 22,
+  "generated_at": "2026-11-13T20:25:13.861706+00:00",
+  "count": 23,
   "postings": [
     {
       "id": "web:https://www.foreign.senate.gov/about/internships",
@@ -564,6 +564,33 @@
       "fit_with_plans": "This bridges your tech-in-governance and defense policy interests perfectly and positions you within the think-tank ecosystem that feeds into cabinet-advisory and legislative roles. Early exposure to AI policy research strengthens your candidacy for higher-stakes government roles post-MPP.",
       "difficulty": "Moderate-to-high for a sophomore; CNAS is prestigious and competitive, and an engineer title may imply technical qualifications that require prior internships or strong portfolio work.",
       "approach": "Reach out to CNAS directly to clarify the role's policy vs. technical balance and any sophomore eligibility. If it's research-focused, emphasize your Batten track, foreign policy ambitions, and any relevant coursework or startup thinking on tech governance. If it's pure ML engineering, consider it a stretch unless you have solid technical chops to demonstrate."
+    },
+    {
+      "id": "web:https://www.cnas.org/careers/fellow-senior-fellow-energy-economics-and-security-program",
+      "title": "Fellow / Senior Fellow, Energy, Economics, and Security Program",
+      "org": "CNAS \u2014 careers",
+      "location": "",
+      "url": "https://www.cnas.org/careers/fellow-senior-fellow-energy-economics-and-security-program",
+      "summary": "",
+      "source": "CNAS \u2014 careers",
+      "first_seen": "2026-11-13T20:24:48.231205+00:00",
+      "relevant": true,
+      "relevance_score": 72,
+      "category": "think tank",
+      "fit_tier": "strong",
+      "strengths": [
+        "CNAS is a top-tier defense and national security think tank with deep expertise in technology policy, which directly aligns with your foreign/defense + tech-in-governance focus",
+        "The Energy, Economics, and Security Program bridges your interest in energy policy (DOE funding, materials-science infrastructure) with defense and strategic competition\u2014a natural fit for your materials-policy angle",
+        "Think-tank fellowship experience builds credibility for future congressional or cabinet-advisory roles and provides direct policy research and writing experience"
+      ],
+      "weaknesses": [
+        "As a rising sophomore, you may face competition from more senior fellows or graduate students; fellowship roles often target post-undergrad or graduate candidates",
+        "No description provided makes it unclear whether this is a summer internship, year-long fellowship, or entry-level senior position\u2014you'll need to confirm eligibility",
+        "Think-tank work is slightly more research-focused than legislative drafting; if your primary goal is Hill staff or direct government policymaking, a congressional internship might be more direct"
+      ],
+      "fit_with_plans": "A CNAS fellowship in energy, economics, and security aligns strongly with your interest in tech-in-governance, materials-policy expertise, and defense policy. It positions you well for future roles in government or policy-adjacent environments and builds the analytical credibility needed for cabinet or congressional advisory work.",
+      "difficulty": "Moderately challenging as a sophomore; CNAS fellowships are competitive and may be weighted toward graduate students or post-undergrads, but your strong GPA, clear focus on national security, and Batten track make you a plausible candidate if the role accepts undergraduates.",
+      "approach": "Contact CNAS directly to confirm this fellowship accepts undergraduates and clarifies the term and start date. If eligible, emphasize your double focus on tech-governance and materials-science policy infrastructure; relate it to your Batten pathway and your specific interest in how energy security intersects with U.S. defense posture and strategic competition with China."
     },
     {
       "id": "web:https://www.cnas.org/careers/program-associate-program-manager-ai-policy-lab",
